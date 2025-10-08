@@ -15,56 +15,11 @@ interface SidebarProps {
 
 export default function Sidebar({ personalInfo, skills, languages, hobbies }: SidebarProps) {
   const [emailRevealed, setEmailRevealed] = useState(false);
-  const [phoneRevealed, setPhoneRevealed] = useState(false);
-  const [locale, setLocale] = useState<'portugal' | 'north-america'>('portugal');
-  const [isLocalhost, setIsLocalhost] = useState(false);
-
-  // Check if running on localhost
-  useEffect(() => {
-    setIsLocalhost(
-      typeof window !== 'undefined' &&
-      (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
-    );
-  }, []);
-
-  // Override contact info based on locale
-  const contactInfo = locale === 'north-america' ? {
-    ...personalInfo.contact,
-    location: 'Ontario, Canada',
-    phone: '+1-437-889-8690',
-    'residence visa': undefined,
-  } : personalInfo.contact;
 
   return (
     <aside className="sidebar bg-slate-100 p-6 print:bg-white print:p-4">
-      {isLocalhost && (
-        <div className="mb-4 print:hidden">
-          <div className="flex gap-2 bg-yellow-100 p-2 rounded">
-            <button
-              onClick={() => setLocale('portugal')}
-              className={`flex-1 px-3 py-1 text-xs rounded ${
-                locale === 'portugal'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
-              }`}
-            >
-              Portugal/EU
-            </button>
-            <button
-              onClick={() => setLocale('north-america')}
-              className={`flex-1 px-3 py-1 text-xs rounded ${
-                locale === 'north-america'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
-              }`}
-            >
-              North America
-            </button>
-          </div>
-        </div>
-      )}
       <div className="flex justify-center mb-6">
-        <QRCode text={contactInfo.linkedin} size={64} />
+        <QRCode text={personalInfo.contact.linkedin} size={64} />
       </div>
       <div className="hidden print:hidden avatar bg-blue-600 text-white w-12 h-12 rounded-full justify-center items-center text-lg font-bold mb-6">
         MB
@@ -82,37 +37,16 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
                 Click to reveal email
               </button>
             ) : (
-              <span>{contactInfo.email}</span>
+              <span>{personalInfo.contact.email}</span>
             )}
-            <span className="hidden print:inline">{contactInfo.email}</span>
+            <span className="hidden print:inline">{personalInfo.contact.email}</span>
           </li>
-          {isLocalhost && (
-            <>
-              <li>
-                {!phoneRevealed ? (
-                  <button
-                    onClick={() => setPhoneRevealed(true)}
-                    className="text-blue-600 hover:underline print:hidden"
-                  >
-                    Click to reveal phone
-                  </button>
-                ) : (
-                  <span>{contactInfo.phone}</span>
-                )}
-                <span className="hidden print:inline">{contactInfo.phone}</span>
-              </li>
-              <li>{contactInfo.location}</li>
-            </>
-          )}
-          {contactInfo.nationality && (
-            <li>Nationality: {contactInfo.nationality}</li>
-          )}
-          {isLocalhost && contactInfo['residence visa'] && (
-            <li>Residence: {contactInfo['residence visa']}</li>
+          {personalInfo.contact.nationality && (
+            <li>Nationality: {personalInfo.contact.nationality}</li>
           )}
           <li>
             <a
-              href={contactInfo.linkedin}
+              href={personalInfo.contact.linkedin}
               target="_blank"
               rel="noopener"
               className="text-blue-600 hover:underline print:text-black"
@@ -120,10 +54,10 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
               linkedin.com/in/markobradley
             </a>
           </li>
-          {contactInfo.website && (
+          {personalInfo.contact.website && (
             <li>
               <a
-                href={contactInfo.website}
+                href={personalInfo.contact.website}
                 target="_blank"
                 rel="noopener"
                 className="text-blue-600 hover:underline print:text-black"
@@ -132,10 +66,10 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
               </a>
             </li>
           )}
-          {contactInfo.consulting && (
+          {personalInfo.contact.consulting && (
             <li>
               <a
-                href={contactInfo.consulting}
+                href={personalInfo.contact.consulting}
                 target="_blank"
                 rel="noopener"
                 className="text-blue-600 hover:underline print:text-black"

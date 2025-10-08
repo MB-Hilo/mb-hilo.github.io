@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e159930-b451-480e-8c8e-868211974c75" name="Changes" comment="missing build files?">
+    <list default="true" id="3e159930-b451-480e-8c8e-868211974c75" name="Changes" comment="fix Sidebar.tsx">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume-site/src/components/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/resume-site/src/components/Sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +79,7 @@
       <workItem from="1757961485140" duration="1040000" />
       <workItem from="1758125653668" duration="3715000" />
       <workItem from="1758993054046" duration="311000" />
-      <workItem from="1759962032850" duration="1799000" />
+      <workItem from="1759962032850" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="Reveal, QR code, sidebar update">
       <option name="closed" value="true" />
@@ -151,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758132562264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="missing build files?">
+      <option name="closed" value="true" />
+      <created>1759964265497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759964265497</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix Sidebar.tsx">
+      <option name="closed" value="true" />
+      <created>1759964978709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759964978709</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +183,7 @@
     <MESSAGE value="Background animation" />
     <MESSAGE value="Update Python, nationality" />
     <MESSAGE value="missing build files?" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing build files?" />
+    <MESSAGE value="fix Sidebar.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Sidebar.tsx" />
   </component>
 </project>
