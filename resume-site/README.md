@@ -93,3 +93,5 @@ resume-site/
 - **TypeScript** - Type safety
 - **Tailwind CSS** - Styling with print optimizations
 - **Inter Font** - Clean, professional typography
+
+Have fun
