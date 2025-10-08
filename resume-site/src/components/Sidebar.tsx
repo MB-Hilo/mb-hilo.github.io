@@ -86,24 +86,28 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
             )}
             <span className="hidden print:inline">{contactInfo.email}</span>
           </li>
-          <li>
-            {!phoneRevealed ? (
-              <button
-                onClick={() => setPhoneRevealed(true)}
-                className="text-blue-600 hover:underline print:hidden"
-              >
-                Click to reveal phone
-              </button>
-            ) : (
-              <span>{contactInfo.phone}</span>
-            )}
-            <span className="hidden print:inline">{contactInfo.phone}</span>
-          </li>
-          <li>{contactInfo.location}</li>
+          {isLocalhost && (
+            <>
+              <li>
+                {!phoneRevealed ? (
+                  <button
+                    onClick={() => setPhoneRevealed(true)}
+                    className="text-blue-600 hover:underline print:hidden"
+                  >
+                    Click to reveal phone
+                  </button>
+                ) : (
+                  <span>{contactInfo.phone}</span>
+                )}
+                <span className="hidden print:inline">{contactInfo.phone}</span>
+              </li>
+              <li>{contactInfo.location}</li>
+            </>
+          )}
           {contactInfo.nationality && (
             <li>Nationality: {contactInfo.nationality}</li>
           )}
-          {contactInfo['residence visa'] && (
+          {isLocalhost && contactInfo['residence visa'] && (
             <li>Residence: {contactInfo['residence visa']}</li>
           )}
           <li>
