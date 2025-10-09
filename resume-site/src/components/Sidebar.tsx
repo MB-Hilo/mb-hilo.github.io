@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { PersonalInfo, Skills } from '@/types/resume';
 import SkillMatrix from './SkillMatrix';
 import SkillChart from './SkillChart';
