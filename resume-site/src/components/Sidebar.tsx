@@ -37,7 +37,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
                 Click to reveal email
               </button>
             ) : (
-              <span>{personalInfo.contact.email}</span>
+              <span className="print:hidden">{personalInfo.contact.email}</span>
             )}
             <span className="hidden print:inline">{personalInfo.contact.email}</span>
           </li>
