@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import FloatingLettersBackground from "@/components/FloatingLettersBackground";
+import Providers from "@/components/Providers";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} antialiased font-sans`}>
-        <FloatingLettersBackground />
-        {children}
+        <Providers>
+          <FloatingLettersBackground />
+          {children}
+        </Providers>
       </body>
     </html>
   );

@@ -1,6 +1,8 @@
 'use client';
 
 import { useState } from 'react';
+import { useLanguage } from '@/context/LanguageContext';
+import { getTranslations } from '@/data/translations';
 
 interface DetailedSkill {
   name: string;
@@ -15,6 +17,8 @@ interface SkillMatrixProps {
 
 export default function SkillMatrix({ skills }: SkillMatrixProps) {
   const [expandedSkill, setExpandedSkill] = useState<string | null>(null);
+  const { language } = useLanguage();
+  const t = getTranslations(language);
 
   const toggleSkill = (skillName: string) => {
     setExpandedSkill(expandedSkill === skillName ? null : skillName);
@@ -27,8 +31,8 @@ export default function SkillMatrix({ skills }: SkillMatrixProps) {
           <div
             key={star}
             className={`w-3 h-3 ${
-              star <= level 
-                ? 'text-yellow-400' 
+              star <= level
+                ? 'text-yellow-400'
                 : 'text-gray-300'
             }`}
           >
@@ -42,9 +46,9 @@ export default function SkillMatrix({ skills }: SkillMatrixProps) {
   return (
     <div className="skill-matrix">
       <h3 className="text-lg font-semibold mb-4 text-gray-800 print:text-base">
-        Technical Skills Matrix
+        {t.technicalSkillsMatrix}
       </h3>
-      
+
       {/* Desktop/Interactive View */}
       <div className="hidden md:block print:hidden">
         <div className="grid grid-cols-1 gap-2">
@@ -67,7 +71,7 @@ export default function SkillMatrix({ skills }: SkillMatrixProps) {
                   </div>
                 </div>
               </button>
-              
+
               {expandedSkill === skill.name && skill.details && (
                 <div className="px-4 pb-4 bg-gray-50 border-t border-gray-200">
                   <ul className="space-y-1 text-sm text-gray-700">
@@ -100,7 +104,7 @@ export default function SkillMatrix({ skills }: SkillMatrixProps) {
                   onClick={() => toggleSkill(skill.name)}
                   className="text-blue-600 text-sm mt-2 hover:underline"
                 >
-                  {expandedSkill === skill.name ? 'Show less' : 'Show details'}
+                  {expandedSkill === skill.name ? t.showLess : t.showDetails}
                 </button>
               )}
               {expandedSkill === skill.name && skill.details && (

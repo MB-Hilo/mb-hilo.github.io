@@ -1,0 +1,327 @@
+{
+  "personalInfo": {
+    "name": "Mark Bradley",
+    "title": "Desarrollador Full‑Stack • Co‑fundador Técnico",
+    "contact": {
+      "email": "mark.obradley@gmail.com",
+      "phone": "",
+      "location": "",
+      "nationality": "Canadiense",
+      "residence": "Portugal",
+      "consulting": "https://www.hilo.ca",
+      "linkedin": "https://www.linkedin.com/in/markobradley/",
+      "website": "https://mb-hilo.github.io"
+    }
+  },
+  "profile": "Desarrollador full-stack y co-fundador técnico con más de 15 años de experiencia construyendo plataformas web escalables, aplicaciones cloud-native e interfaces centradas en el usuario para empresas y startups (CBC, BMO, Ørsted, Nordea, Publicis). Actualmente co-fundador de la empresa de consultoría IT www.hilo.ca y el SaaS www.pricedOff.com, una plataforma de inteligencia de precios orientada al consumidor. Lidero arquitectura, servicios backend (Node.js, MongoDB, AWS), desarrollo de extensiones Chrome y automatización inteligente para pipelines de datos, afiliados y marketing. Mi estilo de desarrollo es pragmático y enfocado en rendimiento, basado en código limpio y testeable con iteración rápida.",
+  "skills": {
+    "technical": [
+      { "name": "React / TypeScript", "level": 70 },
+      { "name": "Python / Anaconda / Streamlit", "level": 20 },
+      { "name": "Node.js / Restify", "level": 90 },
+      { "name": "MongoDB", "level": 85 },
+      { "name": "AWS / Azure DevOps", "level": 30 },
+      { "name": "Chrome Extensions", "level": 30 },
+      { "name": "Angular", "level": 88 },
+      { "name": "Docker / K8s", "level": 40 },
+      { "name": "Claude Code / Agentic Coding / MCP Tool Dev", "level": 15 }
+    ],
+    "soft": [
+      { "name": "Resolución de problemas", "level": 5 },
+      { "name": "Adaptabilidad", "level": 5 },
+      { "name": "Pensamiento crítico", "level": 5 },
+      { "name": "Atención al detalle", "level": 4 }
+    ],
+    "detailedTechnical": [
+      {
+        "name": "React + TypeScript + Frontend Moderno",
+        "level": 5,
+        "experience": "4 años",
+        "details": [
+          "Aplicaciones React complejas construidas con TypeScript y Vite",
+          "Patrones React avanzados: Context API, hooks personalizados, HOCs",
+          "Gestión de estado con React Context y estado local",
+          "Optimización de rendimiento con React.memo, useMemo, useCallback",
+          "Integración con AG-Grid para tablas de datos complejas",
+          "React Router para navegación SPA con rutas protegidas",
+          "Herramientas de build modernas: Vite, Webpack y workflows npm/yarn"
+        ]
+      },
+      {
+        "name": "Node.js + MongoDB + Arquitectura Full-Stack",
+        "level": 5,
+        "experience": "6 años",
+        "details": [
+          "Desarrollo de API RESTful con Restify y Express.js",
+          "MongoDB con esquemas Mongoose y pipelines de agregación",
+          "Autenticación con Passport.js y gestión de sesiones",
+          "Arquitectura de microservicios con servicio de notificaciones separado",
+          "Diseño de base de datos con múltiples colecciones por dominio",
+          "Despliegue en la nube con AWS Lambda y ecosistema PM2",
+          "Funcionalidades en tiempo real con WebSockets y eventos enviados por servidor"
+        ]
+      },
+      {
+        "name": "Python + Integración API + Sistemas Financieros",
+        "level": 4,
+        "experience": "2 años",
+        "details": [
+          "Migración de sistemas de trading de commodities en Ørsted usando Python para orquestación API",
+          "Escáner de mercado de valores construido con Python e integración API Polygon.io",
+          "Servidores Model Context Protocol creados para agentes IA interactuando con datos de mercado",
+          "Automatización de trading de opciones desarrollada con API Interactive Brokers",
+          "Procesamiento de datos financieros y streaming de datos de mercado en tiempo real",
+          "Desarrollo de clientes API con requests, pandas para manipulación de datos"
+        ]
+      },
+      {
+        "name": "Javascript ES6+, HTML5, CSS3, SCSS",
+        "level": 5,
+        "experience": "10 años",
+        "details": [
+          "Características modernas ES6+: async/await, desestructuración, módulos",
+          "Patrones JavaScript avanzados y programación funcional",
+          "Diseño responsive con CSS Grid, Flexbox y Bootstrap",
+          "Preprocesamiento SCSS/SASS con módulos CSS",
+          "Compatibilidad cross-browser y estándares de accesibilidad",
+          "Optimización de rendimiento y code splitting"
+        ]
+      },
+      {
+        "name": "AWS + Infraestructura Cloud + DevOps",
+        "level": 4,
+        "experience": "3 años",
+        "details": [
+          "Servicios AWS: Lambda, EC2, S3, CloudWatch, SES",
+          "Arquitectura serverless con funciones AWS Lambda",
+          "Containerización Docker y estrategias de despliegue",
+          "Pipelines CI/CD con Azure DevOps y GitHub Actions",
+          "Gestión de entornos y configuración",
+          "Monitoreo, logging y seguimiento de rendimiento"
+        ]
+      },
+      {
+        "name": "Angular 2+ a 18 + Desarrollo Enterprise",
+        "level": 4,
+        "experience": "6 años",
+        "details": [
+          "Herramientas de trading de commodities y gestión de riesgo construidas (Angular 13-18)",
+          "Plataformas híbridas AngularJS/Angular migradas a Angular 9+",
+          "Módulos bancarios, dashboards y visualizaciones financieras desarrollados",
+          "Bibliotecas de componentes, formularios reactivos y observables RxJS",
+          "Tests unitarios con Jasmine/Karma, E2E con Protractor/Cypress"
+        ]
+      },
+      {
+        "name": "Web Scraping + Procesamiento de Datos + Automatización",
+        "level": 4,
+        "experience": "2 años",
+        "details": [
+          "Scraping basado en Puppeteer/Playwright con navegador Chrome headless",
+          "Integración VPN para contenido con restricciones geográficas",
+          "Procesamiento masivo de datos y operaciones bulk write MongoDB",
+          "Manejo de errores, mecanismos de reintento y rate limiting",
+          "Normalización de datos y algoritmos de seguimiento de precios",
+          "Testing automatizado con soporte multi-dominio"
+        ]
+      },
+      {
+        "name": "Herramientas de Desarrollo + Workflow + Testing",
+        "level": 4,
+        "experience": "6 años",
+        "details": [
+          "IDEs: WebStorm, VS Code con debugging avanzado",
+          "Workflows Git, estrategias de branching y revisión de código",
+          "Gestión de paquetes con npm, yarn y optimización de dependencias",
+          "Testing: Playwright E2E, tests unitarios Jest, tests de integración",
+          "Linting y calidad de código con ESLint y modo estricto TypeScript",
+          "Gestión de proyectos con Jira, Confluence y workflows Agile"
+        ]
+      },
+      {
+        "name": "Bibliotecas UI/UX + Sistemas de Componentes",
+        "level": 4,
+        "experience": "5 años",
+        "details": [
+          "Bootstrap y sistemas de módulos CSS personalizados",
+          "Integración AG-Grid para visualización de datos complejos",
+          "Angular Material y bibliotecas de componentes personalizadas",
+          "Patrones de diseño responsive y desarrollo mobile-first",
+          "Implementación de modo oscuro y gestión de temas",
+          "Estándares de accesibilidad y compatibilidad cross-browser"
+        ]
+      },
+      {
+        "name": "Arquitectura de Base de Datos + Analytics",
+        "level": 4,
+        "experience": "6 años",
+        "details": [
+          "Diseño MongoDB con colecciones específicas por dominio",
+          "Sincronización de base de datos entre local y Atlas",
+          "Implementación de tracking analytics y click analytics",
+          "Scripts de migración de datos y operaciones masivas",
+          "Optimización de rendimiento y estrategias de indexación",
+          "Planificación de backup y recuperación ante desastres"
+        ]
+      },
+      {
+        "name": "Tecnologías Legacy + Habilidades Fundamentales",
+        "level": 4,
+        "experience": "7+ años",
+        "details": [
+          "ActionScript 3 (base de tipado fuerte para TypeScript)",
+          "Desarrollo de aplicaciones empresariales Flash/Flex",
+          "Patrones de diseño: MVC, MVVM, Observer, Factory, Singleton",
+          "Paradigmas de programación orientada a objetos y funcional",
+          "Arquitectura basada en eventos y programación reactiva",
+          "Base sólida que permitió adopción rápida de frameworks modernos"
+        ]
+      }
+    ]
+  },
+  "languages": ["Inglés", "Japonés (principiante)", "Portugués (aprendiendo)"],
+  "hobbies": ["Bachata", "Fotografía", "Hackathons", "Viajar", "Comida Asiática"],
+  "experience": [
+    {
+      "title": "Co-fundador Técnico",
+      "company": "PricedOff.com",
+      "period": "Junio 2024 – Presente",
+      "location": "Remoto, Zonas horarias EST a CET",
+      "website": "https://www.pricedoff.com",
+      "achievements": [
+        "Arquitectura Frontend: Aplicación React + TypeScript construida con Vite, componentes UI Bootstrap, AG-Grid para tablas de datos de productos complejas, React Router con rutas protegidas y React Context para autenticación/gestión de estado",
+        "Sistemas Backend: Servidor Restify desarrollado con MongoDB, autenticación Passport.js con múltiples estrategias, sesiones Express con almacenamiento MongoDB, middleware de rate limiting y seguridad",
+        "Microservicios: Servicio de notificaciones separado creado con Fastify, servicio de email con integración SES, servicio watchlist para seguimiento de productos y alertas, analytics de tracking de clics para enlaces de afiliados",
+        "Arquitectura de Base de Datos: MongoDB diseñada con colecciones separadas por dominio Amazon (com, ca, es, de, fr, it, co.uk), esquemas Mongoose para productos/usuarios/influencers/analytics, entornos local y Atlas con capacidades de sincronización",
+        "Sistema de Scraping de Productos: Scraping basado en Puppeteer/Playwright construido con Chrome headless, integración AWS Lambda para scraping en la nube, soporte VPN para dominios con restricciones geográficas, operaciones bulk write para actualizaciones de datos eficientes",
+        "DevOps & Testing: Suite de tests Playwright E2E implementada, compilación TypeScript con modo estricto, ESLint para calidad de código, configuración del ecosistema PM2 para despliegue en producción",
+        "Funcionalidades de Negocio: Panel de administración desarrollado para gestión de afiliados y usuarios, algoritmos de seguimiento de precios con alertas, páginas de destino SEO con generación de contenido asistida por IA, soporte multi-dominio (mercados US, CA, EU)",
+        "Workflow de Desarrollo: Rutas proxy frontend establecidas, configuración de entorno con gestión .env, utilidades de base de datos para sync/limpieza/análisis, ejecutor de scripts interactivo para operaciones de base de datos"
+      ]
+    },
+    {
+      "title": "Co-fundador & Desarrollador",
+      "company": "Hilo Information Technology Inc.",
+      "period": "Sep 2014 – Presente",
+      "location": "Toronto, Ontario, Canadá & UE",
+      "website": "https://www.hilo.ca",
+      "achievements": [
+        "Co-fundador de empresa de desarrollo de software con sede en Toronto, especializada en resolver problemas técnicos complejos que impiden a las empresas escalar eficientemente",
+        "Desarrollo Full-Stack: Aplicaciones web y móviles entregadas usando React, Next.js y Node.js con diseño de API RESTful y GraphQL",
+        "Arquitectura Cloud: Infraestructura escalable diseñada en AWS, GCP y Azure con estrategias de optimización de costos",
+        "Optimización de Rendimiento: Cuellos de botella de aplicaciones eliminados y tiempos de carga mejorados mediante mejoras de código e infraestructura",
+        "Modernización Legacy: Sistemas obsoletos modernizados, deuda técnica reducida y mejores prácticas implementadas para crecimiento sostenible",
+        "Clientes Enterprise: Soluciones entregadas para clientes importantes incluyendo Scotia Bank, RBC, TD Bank, BMO, Nordea, Ørsted, CBC, Bell Media, Allstate, Telus, Loblaws Digital y Shaw Media",
+        "Seguridad & Cumplimiento: Prácticas de seguridad de nivel empresarial implementadas para industrias reguladas"
+      ]
+    },
+    {
+      "title": "Desarrollador Frontend Senior",
+      "company": "Ørsted",
+      "period": "Jun 2020 – Julio 2024",
+      "location": "Copenhague, Dinamarca",
+      "website": "https://www.orsted.com",
+      "achievements": [
+        "Mercados y Riesgo (11/2021 - Actual): Frontend de herramienta de gestión de posiciones de trading de commodities desarrollado Angular v13 a 18",
+        "Herramienta de línea de comandos Node.js desarrollada para migrar datos de un sistema a otro usando orquestación API",
+        "Backend mock desarrollado usando Microsoft SignalR para streaming de datos de websockets",
+        "Kubernetes y Docker usados para desplegar aplicación Angular a través de pipelines CI/CD de Azure",
+        "Marketing y Branding (05/2020): Trabajo en containerización de imágenes CMS Sitecore usando Docker con varios módulos",
+        "Varios componentes UI desarrollados para Sitecore en Javascript, como timeline interactivo, teasers, sliders de imágenes",
+        "Estilos globales actualizados para todos los sitios web de Ørsted y sitios de campaña",
+        "Sitio de campaña desarrollado para Sea Hydrogen to Land para la oficina de Países Bajos",
+        "Mejores prácticas consultadas, creadas y presentadas para optimización de sitios web como entrega de imágenes responsive",
+        "Talleres de Scaled Agile para Enterprise tomados"
+      ]
+    },
+    {
+      "title": "Desarrollador Frontend Senior",
+      "company": "Nordea",
+      "period": "Ene 2019 – Mayo 2020",
+      "location": "Copenhague, Dinamarca",
+      "website": "https://www.nordea.com",
+      "achievements": [
+        "Módulo de Cuentas y Transacciones desarrollado y lanzado (Angular 9) que permite a los clientes ver saldos, detalles y transacciones para cada cuenta",
+        "Componentes de visualización del dashboard de forex mantenidos, como gráfico de flujo de caja, cotizaciones, transacciones y tasas históricas",
+        "Desarrollo de varios componentes: calendario de divisas, cifras clave, tablas de tasas históricas, diálogos de impresión, diálogos de personalización de columnas de tabla",
+        "Trabajo conjunto con otros desarrolladores frontend para completar la actualización de la plataforma de app híbrida AngularJS/Angular a Angular 9",
+        "Tareas gestionadas en JIRA y detalles del blog de release completados cada sprint",
+        "Tests unitarios y varios tests end-to-end escritos para nuevos componentes",
+        "Código del equipo frontend revisado en sprints de desarrollo bi-semanales"
+      ]
+    },
+    {
+      "title": "Desarrollador UI Senior",
+      "company": "BMO Bank of Montreal",
+      "period": "Ene 2016 – Sep 2018",
+      "location": "Toronto, Ontario, Canadá",
+      "website": "https://www.bmo.com",
+      "achievements": [
+        "Tercera aplicación de onboarding de clientes desarrollada que es responsive móvil usando Angular 5",
+        "Rediseño de la herramienta de inversión automatizada/robo Smartfolio de BMO terminado (Angular 1.5)",
+        "Personal Wealth Onboarding de BMO (myWealth) desarrollado durante año y medio, usando stack de Angular, Angular Material, Node.js",
+        "Formularios implementados para captura de datos de clientes y componentes desarrollados: calendario, breadcrumb, tiles de sección, filas de cuenta, edición en tiempo real",
+        "Requisitos de usabilidad implementados en toda la aplicación, como creación de directivas Angular para gestionar estado de foco de elementos",
+        "Internacionalización Angular entre inglés y francés implementada usando archivos JSON para diferentes líneas de negocio",
+        "Bugs en Angular Material parcheados que afectaban Internet Explorer y Safari en desktop y móvil",
+        "Uso diario de TypeScript (ES6), WebStorm, git, JIRA, Bitbucket y gulp.js",
+        "App de demo mock iPad desarrollada en el navegador para Mobile Document Capture",
+        "Página de índice de contenido dinámico desarrollada para mapas de procesos para el Centro de Excelencia y Educación de BMO",
+        "Pequeño equipo UI de cuatro personas liderado en el proyecto myWealth"
+      ]
+    },
+    {
+      "title": "Desarrollador Interactivo",
+      "company": "Publicis Modem (Nurun)",
+      "period": "Ene 2015 – Feb 2016",
+      "location": "Toronto, Ontario, Canadá",
+      "website": "https://www.publicis.com",
+      "achievements": [
+        "Apps de página única desarrolladas para clientes usando React.js con MongoDB",
+        "Anuncios de banner interactivos desarrollados usando HTML, JS y Flash",
+        "Workflow de desarrollo automatizado para desarrollar, empaquetar y desplegar anuncios y páginas web usando Node.js, gulp.js",
+        "Trabajo con CMS Alfresco para actualizar sitio web HomeDepot.ca",
+        "Feeds dinámicos creados y anuncios gestionados usando Google DoubleClick"
+      ]
+    },
+    {
+      "title": "Desarrollador UI Senior",
+      "company": "Canadian Broadcast Corporation",
+      "period": "Sep 2011 – Sep 2013",
+      "location": "Toronto, Ontario, Canadá",
+      "website": "https://www.cbc.ca",
+      "achievements": [
+        "Liderazgo del desarrollo de la iniciativa de rediseño del reproductor de medios de CBC reuniendo requisitos de varios departamentos",
+        "Reproductor de video de CBC mantenido (cbc.ca/player/) mejorando funcionalidad existente o añadiendo nuevos plugins",
+        "Funcionalidades añadidas: publicidad DoubleClick, subtítulos, controles de volumen, pantalla completa, compartir vía red social",
+        "Red de distribución de contenido Conviva integrada, streaming en vivo, selección de ancho de banda, Akamai HD, analytics Omniture",
+        "Trabajo en Sistemas de Gestión de Contenido (CMS) como Polopoly para crear páginas de programas",
+        "Colegas entrenados en integración y codificación de contenido para reproductores de medios",
+        "Reproductores de video HTML5 implementados usando ThePlatform y video.js",
+        "Kit de Desarrollo de Plataforma del reproductor actualizado regularmente para solucionar bugs",
+        "Nuevos skins creados para el reproductor CBC, que cambian dinámicamente tamaño, disposición de barra de control y ubicación",
+        "Micrositios de elecciones canadienses lanzados: portales de Columbia Británica, Nueva Escocia y Saskatchewan",
+        "Asistencia en creación de micrositios de programas usando Expression Engine"
+      ]
+    },
+    {
+      "title": "Desarrollador UI",
+      "company": "Spindrift & Bruce Power (contrato)",
+      "period": "Jun 2010 – Ago 2011",
+      "location": "Toronto, Ontario, Canadá",
+      "achievements": [
+        "Aplicación de visualización de mapa del sitio programada usando Flash, bibliotecas Flare y spider web de código abierto modificado",
+        "Flex usado para desarrollar módulo que recopila datos de mantenimiento para planta nuclear de Bruce Power",
+        "Basado en micro-arquitectura Mate y consumiendo webservices de middleware llamado NextAxiom",
+        "API de analytics diseñada y documentada para aplicaciones Silverlight",
+        "Trabajo en aplicación de seguimiento de issues desarrollada usando Silverlight y patrón de diseño MVVM",
+        "Primera versión del sitio web de la empresa y varias revisiones desarrolladas"
+      ]
+    }
+  ],
+  "additionalExperience": "Posiciones anteriores en CBC, Publicis, Spindrift/Bruce Power, OgilvyOne, PlanetEye — detalles en LinkedIn.",
+  "education": [
+    "Diploma en Ciencias de la Computación (Programador Analista) — Sault College",
+    "Educación continua: Angular/RxJS/TS (Udemy), MongoDB University, React/Redux (Egghead), NoSQL/Node.js (Lynda), Udacity Web Dev"
+  ]
+}

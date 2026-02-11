@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { PersonalInfo, Skills } from '@/types/resume';
+import { useLanguage } from '@/context/LanguageContext';
+import { getTranslations } from '@/data/translations';
 import SkillMatrix from './SkillMatrix';
 import SkillChart from './SkillChart';
 import QRCode from './QRCode';
@@ -11,13 +13,16 @@ interface SidebarProps {
   skills: Skills;
   languages: string[];
   hobbies: string[];
+  education: string[];
 }
 
-export default function Sidebar({ personalInfo, skills, languages, hobbies }: SidebarProps) {
+export default function Sidebar({ personalInfo, skills, languages, hobbies, education }: SidebarProps) {
   const [emailRevealed, setEmailRevealed] = useState(false);
+  const { language } = useLanguage();
+  const t = getTranslations(language);
 
   return (
-    <aside className="sidebar bg-slate-100 p-6 print:bg-white print:p-4">
+    <aside className="sidebar w-[40%] min-w-[300px] max-w-[400px] bg-slate-100 p-6 print:bg-white print:p-4">
       <div className="flex justify-center mb-6">
         <QRCode text={personalInfo.contact.linkedin} size={64} />
       </div>
@@ -26,7 +31,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
       </div>
 
       <section className="mb-8">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Contact</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.contact}</h2>
         <ul className="space-y-2 text-sm text-gray-700">
           <li>
             {!emailRevealed ? (
@@ -34,7 +39,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
                 onClick={() => setEmailRevealed(true)}
                 className="text-blue-600 hover:underline print:hidden"
               >
-                Click to reveal email
+                {t.clickToRevealEmail}
               </button>
             ) : (
               <span className="print:hidden">{personalInfo.contact.email}</span>
@@ -42,7 +47,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
             <span className="hidden print:inline">{personalInfo.contact.email}</span>
           </li>
           {personalInfo.contact.nationality && (
-            <li>Nationality: {personalInfo.contact.nationality}</li>
+            <li>{t.nationality}: {personalInfo.contact.nationality}</li>
           )}
           <li>
             <a
@@ -84,19 +89,19 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
       <SkillChart />
 
       <section className="mb-8">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Skills</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.skills}</h2>
         <ul className="space-y-3">
           {skills.technical.map((skill) => (
             <li key={skill.name} className="flex items-center justify-between">
               <span className="text-sm text-gray-700 flex-1">{skill.name}</span>
-              <span className="text-xs text-gray-600">{Math.floor(skill.level / 10)} years</span>
+              <span className="text-xs text-gray-600">{Math.floor(skill.level / 10)} {t.years}</span>
             </li>
           ))}
         </ul>
       </section>
 
       <section className="mb-8">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Soft Skills</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.softSkills}</h2>
         <ul className="space-y-2">
           {skills.soft.map((skill) => (
             <li key={skill.name} className="flex items-center justify-between">
@@ -122,47 +127,56 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
         </section>
 
       <section className="mb-8 print:break-before-page">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Side Projects</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.education}</h2>
+        <ul className="space-y-2 text-sm text-gray-700">
+          {education.map((item, index) => (
+            <li key={index} className="leading-relaxed">• {item}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.sideProjects}</h2>
         <div className="space-y-3">
           <div>
             <h3 className="text-sm font-medium text-gray-800 mb-1">RoboLog</h3>
-            <p className="text-xs text-gray-600 mb-2">AI-powered log monitoring system</p>
+            <p className="text-xs text-gray-600 mb-2">{t.roboLogDescription}</p>
             <div className="space-y-1">
-              <a 
+              <a
                 href="https://github.com/Hilo-Inc/robolog"
                 target="_blank"
                 rel="noopener"
                 className="text-blue-600 hover:underline text-xs print:text-black block"
               >
-                View on GitHub →
+                {t.viewOnGitHub} →
               </a>
-              <a 
+              <a
                 href="https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/robolog-ai-powered-log-monitoring-system"
                 target="_blank"
                 rel="noopener"
                 className="text-blue-600 hover:underline text-xs print:text-black block"
               >
-                View on Kaggle →
+                {t.viewOnKaggle} →
               </a>
             </div>
           </div>
           <div>
             <h3 className="text-sm font-medium text-gray-800 mb-1">Shunido</h3>
-            <p className="text-xs text-gray-600 mb-2">Virtual fashion exploration platform</p>
-            <a 
+            <p className="text-xs text-gray-600 mb-2">{t.shunidoDescription}</p>
+            <a
               href="https://www.kaggle.com/competitions/banana/writeups/shunido-virtual-fashion-exploration"
               target="_blank"
               rel="noopener"
               className="text-blue-600 hover:underline text-xs print:text-black"
             >
-              View on Kaggle →
+              {t.viewOnKaggle} →
             </a>
           </div>
         </div>
       </section>
 
       <section className="mb-8">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Languages</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.languages}</h2>
         <div className="flex flex-wrap gap-2">
           {languages.map((language) => (
             <span
@@ -176,7 +190,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
       </section>
 
       <section className="mb-8">
-        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">Interests</h2>
+        <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.interests}</h2>
         <div className="grid grid-cols-1 gap-2">
           {hobbies.map((hobby) => (
             <span

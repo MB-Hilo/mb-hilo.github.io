@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import { Experience } from '@/types/resume';
+import { useLanguage } from '@/context/LanguageContext';
+import { getTranslations } from '@/data/translations';
 
 interface ExpandableExperienceProps {
   job: Experience;
@@ -10,6 +12,8 @@ interface ExpandableExperienceProps {
 
 export default function ExpandableExperience({ job, index }: ExpandableExperienceProps) {
   const [isExpanded, setIsExpanded] = useState(index < 3); // Show first 3 expanded by default
+  const { language } = useLanguage();
+  const t = getTranslations(language);
 
   const toggleExpanded = () => {
     setIsExpanded(!isExpanded);
@@ -26,10 +30,10 @@ export default function ExpandableExperience({ job, index }: ExpandableExperienc
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-800 print:text-base">
             {job.title} — {job.website ? (
-              <a 
-                href={job.website} 
-                target="_blank" 
-                rel="noopener" 
+              <a
+                href={job.website}
+                target="_blank"
+                rel="noopener"
                 className="text-blue-600 hover:underline print:text-black"
               >
                 {job.company}
@@ -53,7 +57,7 @@ export default function ExpandableExperience({ job, index }: ExpandableExperienc
             • {achievement}
           </li>
         ))}
-        
+
         {isExpanded && additionalAchievements.map((achievement, achievementIndex) => (
           <li key={`additional-${achievementIndex}`} className="leading-relaxed">
             • {achievement}
@@ -66,9 +70,9 @@ export default function ExpandableExperience({ job, index }: ExpandableExperienc
           onClick={toggleExpanded}
           className="mt-3 text-blue-600 hover:text-blue-800 text-sm font-medium print:hidden focus:outline-none"
         >
-          {isExpanded ? 
-            `− Show less (${additionalAchievements.length} fewer items)` : 
-            `+ Show more (${additionalAchievements.length} more items)`
+          {isExpanded ?
+            t.fewerItems(additionalAchievements.length) :
+            t.moreItems(additionalAchievements.length)
           }
         </button>
       )}

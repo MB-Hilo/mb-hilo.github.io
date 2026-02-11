@@ -1,4 +1,8 @@
+'use client';
+
 import { PersonalInfo, Experience } from '@/types/resume';
+import { useLanguage } from '@/context/LanguageContext';
+import { getTranslations } from '@/data/translations';
 import ExpandableExperience from './ExpandableExperience';
 
 interface MainContentProps {
@@ -6,16 +10,17 @@ interface MainContentProps {
   profile: string;
   experience: Experience[];
   additionalExperience: string;
-  education: string[];
 }
 
-export default function MainContent({ 
-  personalInfo, 
-  profile, 
-  experience, 
-  additionalExperience, 
-  education 
+export default function MainContent({
+  personalInfo,
+  profile,
+  experience,
+  additionalExperience
 }: MainContentProps) {
+  const { language } = useLanguage();
+  const t = getTranslations(language);
+
   return (
     <main className="main flex-1 p-6 print:p-4">
       <header className="header mb-8 print:mb-6">
@@ -25,27 +30,18 @@ export default function MainContent({
       </header>
 
       <section className="section profile-section mb-8 print:mb-6">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800 print:text-xl">Profile</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-800 print:text-xl">{t.profile}</h2>
         <p className="text-gray-700 leading-relaxed print:text-sm">{profile}</p>
       </section>
 
       <section className="section experience-section main-content-flow mb-8 print:mb-6">
-        <h2 className="text-2xl font-semibold mb-6 text-gray-800 print:text-xl">Work Experience</h2>
-        
+        <h2 className="text-2xl font-semibold mb-6 text-gray-800 print:text-xl">{t.workExperience}</h2>
+
         {experience.map((job, index) => (
           <ExpandableExperience key={index} job={job} index={index} />
         ))}
 
         <p className="more text-gray-600 italic print:text-sm mt-4">{additionalExperience}</p>
-      </section>
-
-      <section className="section education-section">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800 print:text-xl">Education</h2>
-        <ul className="edu space-y-2 text-gray-700 print:text-sm">
-          {education.map((item, index) => (
-            <li key={index} className="leading-relaxed">• {item}</li>
-          ))}
-        </ul>
       </section>
     </main>
   );

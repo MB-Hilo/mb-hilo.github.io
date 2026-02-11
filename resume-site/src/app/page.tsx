@@ -1,34 +1,41 @@
+'use client';
+
 import Sidebar from '@/components/Sidebar';
 import MainContent from '@/components/MainContent';
 import SkillMatrix from '@/components/SkillMatrix';
-import { ResumeData } from '@/types/resume';
-import resumeData from '@/data/resume.json';
+import LanguageSelector from '@/components/LanguageSelector';
+import { useTranslations } from '@/hooks/useTranslations';
 
 export default function Home() {
-  const data: ResumeData = resumeData;
+  const { t, data } = useTranslations();
 
   return (
     <div className="page min-h-screen bg-white max-w-6xl mx-auto print:max-w-none print:mx-0 print:shadow-none relative z-10">
+      {/* Language Selector - Fixed position */}
+      <div className="absolute top-4 right-4 z-20 print:hidden">
+        <LanguageSelector />
+      </div>
+
       {/* Desktop Layout */}
       <div className="hidden lg:flex print:flex">
-        <Sidebar 
+        <Sidebar
           personalInfo={data.personalInfo}
           skills={data.skills}
           languages={data.languages}
           hobbies={data.hobbies}
+          education={data.education}
         />
-        <MainContent 
+        <MainContent
           personalInfo={data.personalInfo}
           profile={data.profile}
           experience={data.experience}
           additionalExperience={data.additionalExperience}
-          education={data.education}
         />
       </div>
 
       {/* Mobile Layout */}
       <div className="lg:hidden print:hidden">
-        <div className="p-4">
+        <div className="p-4 pt-16">
           {/* Header */}
           <header className="mb-6">
             <h1 className="text-3xl font-bold text-gray-900">{data.personalInfo.name}</h1>
@@ -38,16 +45,16 @@ export default function Home() {
 
           {/* Contact Info */}
           <section className="mb-6 bg-gray-50 p-4 rounded-lg">
-            <h2 className="text-lg font-semibold mb-3 text-gray-800">Contact</h2>
+            <h2 className="text-lg font-semibold mb-3 text-gray-800">{t.contact}</h2>
             <div className="space-y-1 text-sm text-gray-700">
               <div>{data.personalInfo.contact.email}</div>
               <div>{data.personalInfo.contact.phone}</div>
               <div>{data.personalInfo.contact.location}</div>
               {data.personalInfo.contact.nationality && (
-                <div>Nationality: {data.personalInfo.contact.nationality}</div>
+                <div>{t.nationality}: {data.personalInfo.contact.nationality}</div>
               )}
               {data.personalInfo.contact['residence visa'] && (
-                <div>Residence: {data.personalInfo.contact['residence visa']}</div>
+                <div>{t.residence}: {data.personalInfo.contact['residence visa']}</div>
               )}
               <a href={data.personalInfo.contact.linkedin} className="text-blue-600">
                 linkedin.com/in/markobradley
@@ -67,7 +74,7 @@ export default function Home() {
 
           {/* Profile */}
           <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-3 text-gray-800">Profile</h2>
+            <h2 className="text-xl font-semibold mb-3 text-gray-800">{t.profile}</h2>
             <p className="text-gray-700 leading-relaxed text-sm">{data.profile}</p>
           </section>
 
@@ -78,7 +85,7 @@ export default function Home() {
 
           {/* Experience */}
           <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">Experience</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">{t.experience}</h2>
             {data.experience.map((job, index) => (
               <div key={index} className="mb-4 p-3 bg-gray-50 rounded-lg">
                 <div className="mb-2">
@@ -97,7 +104,7 @@ export default function Home() {
 
           {/* Languages */}
           <section className="mb-6">
-            <h2 className="text-lg font-semibold mb-3 text-gray-800">Languages</h2>
+            <h2 className="text-lg font-semibold mb-3 text-gray-800">{t.languages}</h2>
             <div className="flex flex-wrap gap-2">
               {data.languages.map((language) => (
                 <span key={language} className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">
@@ -109,7 +116,7 @@ export default function Home() {
 
           {/* Interests */}
           <section className="mb-6">
-            <h2 className="text-lg font-semibold mb-3 text-gray-800">Interests</h2>
+            <h2 className="text-lg font-semibold mb-3 text-gray-800">{t.interests}</h2>
             <div className="grid grid-cols-2 gap-2">
               {data.hobbies.map((hobby) => (
                 <span key={hobby} className="text-sm text-gray-700">
@@ -121,7 +128,7 @@ export default function Home() {
 
           {/* Education */}
           <section>
-            <h2 className="text-lg font-semibold mb-3 text-gray-800">Education</h2>
+            <h2 className="text-lg font-semibold mb-3 text-gray-800">{t.education}</h2>
             <ul className="space-y-1 text-sm text-gray-700">
               {data.education.map((item, index) => (
                 <li key={index}>• {item}</li>
