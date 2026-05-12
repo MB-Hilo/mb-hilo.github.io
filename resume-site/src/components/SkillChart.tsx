@@ -5,10 +5,10 @@ interface SkillDistribution {
 }
 
 const skillDistribution: SkillDistribution[] = [
-  { name: 'Frontend', percentage: 45, color: '#3B82F6' },
+  { name: 'Frontend', percentage: 35, color: '#3B82F6' },
   { name: 'Backend', percentage: 30, color: '#10B981' },
   { name: 'Cloud/DevOps', percentage: 15, color: '#F59E0B' },
-  { name: 'AI/Tools/Process', percentage: 10, color: '#8B5CF6' }
+  { name: 'AI/Tools/Process', percentage: 20, color: '#8B5CF6' }
 ];
 
 export default function SkillChart() {

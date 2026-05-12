@@ -183,6 +183,44 @@
   "hobbies": ["Bachata", "Fotografie", "Hackathons", "Reisen", "Asiatisches Essen"],
   "experience": [
     {
+      "title": "Leitender Softwareentwickler",
+      "company": "MicroPeace.org",
+      "period": "Februar 2026 – Mai 2026",
+      "location": "Remote",
+      "website": "https://www.micropeace.org",
+      "achievements": [
+        "Vollständige Full-Stack-Webplattform für eine gemeinnützige Organisation von Grund auf neu mit Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9 und Tailwind CSS entwickelt",
+        "Payload CMS als Headless-Content-Layer konzipiert, um nicht-technischen Mitarbeitern die Verwaltung von Inhalten, Medien und Übersetzungen ohne Entwicklerbeteiligung zu ermöglichen",
+        "OAuth-Authentifizierungsabläufe mit Google und Apple als Identity-Provider für Benutzerkontoerstellung und -anmeldung implementiert",
+        "Mehrsprachige (i18n) Unterstützung für ein internationales Publikum aufgebaut, mit Content-Lokalisierung über Payload CMS",
+        "PostgreSQL 17.9-Schema und Node.js-API-Schicht für Benutzerdaten, Inhaltsbeziehungen und Reporting entworfen und implementiert",
+        "Mehrere Drittanbieter-APIs und Google Analytics für Engagement-Tracking und Reporting-Dashboards integriert",
+        "Self-hosted VPS-Deployment mit NGINX Reverse Proxy, PM2-Prozessmanagement und CI/CD-Pipeline für Next.js-Frontend und Node.js-API konfiguriert",
+        "Technologien: Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
+      ]
+    },
+    {
+      "title": "Technischer Mitgründer & Leitender Entwickler",
+      "company": "Chatelope",
+      "period": "September 2025 – Heute",
+      "location": "Remote",
+      "website": "https://www.chatelope.com",
+      "achievements": [
+        "Chatelope von Grund auf entwickelt: ein plattformübergreifender KI-Gesprächs-Manager (Web + Flutter Mobile), der Chat-Verläufe von ChatGPT, Claude und Gemini importiert, aggregiert, sichert und analysiert",
+        "Webanwendung: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, shadcn/ui, SQLite mit Drizzle ORM, NextAuth.js mit Google OAuth",
+        "Mobile Anwendung: Flutter mit Riverpod State Management, Drift (SQLite ORM), Go Router Navigation und Google OAuth – für Android und iOS",
+        "Dynamisches Multi-Provider KI-Modellregister entwickelt für OpenAI, Anthropic, Google, Ollama und LM Studio mit Live-Model-Fetching, Metadata-Anreicherung, Preisinformationen und Fallback-Logik",
+        "Echtzeit-Streaming-KI-Chat implementiert mit ReactMarkdown-Rendering, syntaxhervorgehobenen Code-Blöcken und Blinking-Cursor-UX",
+        "Plattformspezifische Import-Parser für ChatGPT, Claude und Gemini entwickelt (Exportdateien und Share-Link-Extraktion via Puppeteer)",
+        "Google Drive Cloud-Backup und plattformübergreifende Synchronisation mit inkrementellen Backups, Manifest/Gerätedatensätzen und Snapshot-Export/Import konzipiert",
+        "Erweiterbares Plugin-System mit definiertem SDK, Auto-Tagging-Plugin und mehrschichtiger Erweiterbarkeitsarchitektur entwickelt",
+        "Fumadocs-Dokumentationsseite, Theme/Skin-System, Abonnement- und verwaltetes Credits-API-Gateway implementiert",
+        "Codebase sicherheitsgehärtet: OAuth-gesicherte API-Routen, Path-Traversal-Schutz bei Anhängen, SQL LIKE-Pattern-Escaping und N+1-Query-Eliminierung",
+        "Docker + Coolify (Hetzner VPS) Deployment mit automatisierter CI/CD, persistenten SQLite-Volumes und Let's Encrypt SSL konfiguriert",
+        "Technologien: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
+      ]
+    },
+    {
       "title": "Technischer Mitgründer",
       "company": "PricedOff.com",
       "period": "Juni 2024 – Heute",

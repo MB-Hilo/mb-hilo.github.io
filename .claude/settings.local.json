@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.hilo.ca)",
-      "Bash(npm run build:*)"
-    ]
-  }
-}

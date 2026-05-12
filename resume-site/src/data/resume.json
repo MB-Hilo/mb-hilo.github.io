@@ -183,6 +183,44 @@
   "hobbies": ["♫ Bachata", "📸 Photography", "💻 Hackathons", "✈️ Travel", "🍜 Asian Food"],
   "experience": [
     {
+      "title": "Lead Software Developer",
+      "company": "MicroPeace.org",
+      "period": "February 2026 – May 2026",
+      "location": "Remote",
+      "website": "https://www.micropeace.org",
+      "achievements": [
+        "Built greenfield full-stack nonprofit web platform from the ground up using Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, and Tailwind CSS",
+        "Architected Payload CMS as a headless content layer to enable non-technical staff to manage site content, media, and translations without developer involvement",
+        "Implemented OAuth authentication flows with Google and Apple as identity providers for user account creation and login",
+        "Built multilingual (i18n) support across the platform to serve an international audience, with content localization managed through Payload CMS",
+        "Designed and implemented PostgreSQL 17.9 schema and Node.js API layer for user data, content relationships, and reporting",
+        "Integrated multiple third-party APIs and Google Analytics for engagement tracking and reporting dashboards",
+        "Configured self-hosted VPS deployment with NGINX reverse proxy, PM2 process management, and CI/CD pipeline for the Next.js frontend and Node.js API",
+        "Technologies: Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
+      ]
+    },
+    {
+      "title": "Technical Co‑founder & Lead Developer",
+      "company": "Chatelope",
+      "period": "September 2025 – Present",
+      "location": "Remote",
+      "website": "https://www.chatelope.com",
+      "achievements": [
+        "Built Chatelope from the ground up: a cross-platform AI Conversation Manager (web + Flutter mobile) that imports, aggregates, backs up, and analyzes chat history from ChatGPT, Claude, and Gemini",
+        "Web Application: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, shadcn/ui, SQLite with Drizzle ORM, NextAuth.js with Google OAuth",
+        "Mobile Application: Flutter with Riverpod state management, Drift (SQLite ORM), Go Router navigation, and Google OAuth — targeting Android and iOS",
+        "Built a dynamic multi-provider AI model registry supporting OpenAI, Anthropic, Google, Ollama, and LM Studio with live model fetching, metadata enrichment, pricing info, and fallback logic",
+        "Implemented real-time streaming AI chat with ReactMarkdown rendering, syntax-highlighted code blocks, and a blinking cursor UX pattern",
+        "Developed platform-specific import parsers for ChatGPT, Claude, and Gemini (export files and share link extraction via Puppeteer)",
+        "Architected Google Drive cloud backup and cross-platform sync with incremental backups, manifest/device records, and snapshot export/import",
+        "Built an extensible plugin system with a defined SDK, auto-tagging plugin, and layered extensibility architecture for future third-party integrations",
+        "Implemented Fumadocs documentation site, theme/skin system, subscription and managed credits API gateway",
+        "Security hardened the codebase: OAuth-gated API routes, path traversal protection on attachments, SQL LIKE pattern escaping, and N+1 query elimination",
+        "Configured Docker + Coolify (Hetzner VPS) deployment with automated CI/CD, persistent SQLite volumes, and Let's Encrypt SSL",
+        "Technologies: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
+      ]
+    },
+    {
       "title": "Technical Co‑founder",
       "company": "PricedOff.com",
       "period": "June 2024 – Present",
