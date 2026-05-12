@@ -66,7 +66,11 @@ const FloatingLettersBackground = () => {
         />
         <div
           className="mt-[-7%] h-[67%] bg-cover bg-top opacity-95"
-          style={{ backgroundImage: valleyImage }}
+          style={{
+            backgroundImage: valleyImage,
+            maskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 100%)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 100%)',
+          }}
         />
       </div>
 
