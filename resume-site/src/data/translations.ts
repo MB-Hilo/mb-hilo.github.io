@@ -8,6 +8,7 @@ export interface UITranslations {
   skills: string;
   softSkills: string;
   technicalSkillsMatrix: string;
+  technicalSkillsList: string;
   education: string;
   sideProjects: string;
   languages: string;
@@ -44,6 +45,7 @@ const translations: Record<Language, UITranslations> = {
     skills: 'Skills',
     softSkills: 'Soft Skills',
     technicalSkillsMatrix: 'Technical Skills Matrix',
+    technicalSkillsList: 'Technical Skills',
     education: 'Education',
     sideProjects: 'Side Projects',
     languages: 'Languages',
@@ -70,6 +72,7 @@ const translations: Record<Language, UITranslations> = {
     skills: 'Fähigkeiten',
     softSkills: 'Soft Skills',
     technicalSkillsMatrix: 'Technische Fähigkeiten',
+    technicalSkillsList: 'Technische Kenntnisse',
     education: 'Ausbildung',
     sideProjects: 'Nebenprojekte',
     languages: 'Sprachen',
@@ -96,6 +99,7 @@ const translations: Record<Language, UITranslations> = {
     skills: 'Compétences',
     softSkills: 'Compétences Relationnelles',
     technicalSkillsMatrix: 'Matrice des Compétences Techniques',
+    technicalSkillsList: 'Compétences Techniques',
     education: 'Formation',
     sideProjects: 'Projets Personnels',
     languages: 'Langues',
@@ -122,6 +126,7 @@ const translations: Record<Language, UITranslations> = {
     skills: 'Habilidades',
     softSkills: 'Habilidades Blandas',
     technicalSkillsMatrix: 'Matriz de Habilidades Técnicas',
+    technicalSkillsList: 'Habilidades Técnicas',
     education: 'Educación',
     sideProjects: 'Proyectos Personales',
     languages: 'Idiomas',
@@ -140,6 +145,33 @@ const translations: Record<Language, UITranslations> = {
     fewerItems: (count) => `− Mostrar menos (${count} elementos menos)`,
     roboLogDescription: 'Sistema de monitoreo de logs impulsado por IA',
     shunidoDescription: 'Plataforma de exploración de moda virtual',
+  },
+  pt: {
+    contact: 'Contacto',
+    profile: 'Perfil',
+    workExperience: 'Experiência Profissional',
+    skills: 'Competências',
+    softSkills: 'Competências Pessoais',
+    technicalSkillsMatrix: 'Matriz de Competências Técnicas',
+    technicalSkillsList: 'Competências Técnicas',
+    education: 'Formação Académica',
+    sideProjects: 'Projetos Pessoais',
+    languages: 'Idiomas',
+    interests: 'Interesses',
+    experience: 'Experiência',
+    nationality: 'Nacionalidade',
+    residence: 'Residência',
+    years: 'anos',
+    clickToRevealEmail: 'Clique para revelar o email',
+    showMore: 'Ver mais',
+    showLess: 'Ver menos',
+    showDetails: 'Ver detalhes',
+    viewOnGitHub: 'Ver no GitHub',
+    viewOnKaggle: 'Ver no Kaggle',
+    moreItems: (count) => `+ Ver mais (${count} itens adicionais)`,
+    fewerItems: (count) => `− Ver menos (${count} itens a menos)`,
+    roboLogDescription: 'Sistema de monitorização de logs com IA',
+    shunidoDescription: 'Plataforma de exploração de moda virtual',
   },
 };
 

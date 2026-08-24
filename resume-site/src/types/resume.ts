@@ -1,6 +1,12 @@
+export interface PhoneNumber {
+  label: string;
+  number: string;
+}
+
 export interface ContactInfo {
   email: string;
   phone: string;
+  phones?: PhoneNumber[];
   location: string;
   nationality?: string;
   'residence visa'?: string;
@@ -31,6 +37,7 @@ export interface Skills {
   technical: Skill[];
   soft: Skill[];
   detailedTechnical: DetailedSkill[];
+  skillKeywords: string[];
 }
 
 export interface Experience {

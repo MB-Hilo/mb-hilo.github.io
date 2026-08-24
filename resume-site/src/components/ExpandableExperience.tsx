@@ -34,9 +34,24 @@ export default function ExpandableExperience({ job, index }: ExpandableExperienc
                 href={job.website}
                 target="_blank"
                 rel="noopener"
-                className="text-blue-600 hover:underline print:text-black"
+                className="text-blue-600 underline hover:text-blue-800 inline-flex items-center gap-1"
               >
                 {job.company}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-3.5 h-3.5"
+                  aria-hidden="true"
+                >
+                  <path d="M14 3h7v7" />
+                  <path d="M10 14L21 3" />
+                  <path d="M21 14v7H3V3h7" />
+                </svg>
               </a>
             ) : (
               job.company

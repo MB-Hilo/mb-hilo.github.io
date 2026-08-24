@@ -16,6 +16,8 @@
 # next.js
 /.next/
 /out/
+/out-emea/
+/out-ca-us/
 
 # production
 /build

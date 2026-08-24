@@ -5,12 +5,14 @@ import resumeEn from './resume.json';
 import resumeDe from './resume.de.json';
 import resumeFr from './resume.fr.json';
 import resumeEs from './resume.es.json';
+import resumePt from './resume.pt.json';
 
 const resumeDataMap: Record<Language, ResumeData> = {
   en: resumeEn as ResumeData,
   de: resumeDe as ResumeData,
   fr: resumeFr as ResumeData,
   es: resumeEs as ResumeData,
+  pt: resumePt as ResumeData,
 };
 
 export function getResumeData(language: Language): ResumeData {
@@ -22,6 +24,7 @@ export const languageNames: Record<Language, string> = {
   de: 'Deutsch',
   fr: 'Français',
   es: 'Español',
+  pt: 'Português',
 };
 
 export const languageFlags: Record<Language, string> = {
@@ -29,4 +32,5 @@ export const languageFlags: Record<Language, string> = {
   de: '🇩🇪',
   fr: '🇫🇷',
   es: '🇪🇸',
+  pt: '🇵🇹',
 };

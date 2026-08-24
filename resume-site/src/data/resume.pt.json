@@ -1,0 +1,592 @@
+{
+  "personalInfo": {
+    "name": "Mark Bradley",
+    "title": "Programador Full‑Stack • Cofundador Técnico",
+    "contact": {
+      "email": "mark.obradley@gmail.com",
+      "phone": "",
+      "phones": [
+        {
+          "label": "CA",
+          "number": "+1 289 672 2888"
+        },
+        {
+          "label": "DK",
+          "number": "+45 91 11 80 40"
+        },
+        {
+          "label": "PT",
+          "number": "+351 914 418 913"
+        }
+      ],
+      "location": "",
+      "nationality": "Canadiano",
+      "residence": "Portugal",
+      "consulting": "https://www.hilo.ca",
+      "linkedin": "https://www.linkedin.com/in/markobradley/",
+      "website": "https://mb-hilo.github.io"
+    }
+  },
+  "profile": "Programador full-stack e cofundador técnico com mais de 15 anos de experiência na construção de plataformas web escaláveis, aplicações cloud-native e interfaces centradas no utilizador para empresas e startups (CBC, BMO, Ørsted, Nordea, Publicis). Atualmente cofundador da empresa de consultoria de TI www.hilo.ca e do SaaS www.pricedOff.com, uma plataforma de inteligência de preços orientada para o consumidor. Lidero a arquitetura, os serviços de backend (Node.js, MongoDB, AWS), o desenvolvimento de extensões Chrome e a automação inteligente para pipelines de dados, afiliação e marketing. O meu estilo de desenvolvimento é pragmático e focado no desempenho, assente em código limpo e testável com iteração rápida. Adotante precoce de ferramentas de programação com IA desde 2023. Utilizei todos os principais fornecedores de LLM e ambientes de agentes (Cursor, Claude Code, Codex, Antigravity, Pi) e implementei mais de uma dezena de projetos pessoais que consumiram milhões de tokens.",
+  "skills": {
+    "technical": [
+      {
+        "name": "JavaScript / TypeScript / ES6+",
+        "level": 180
+      },
+      {
+        "name": "React / React Hooks / Next.js",
+        "level": 90
+      },
+      {
+        "name": "GraphQL / Apollo / Gatsby",
+        "level": 60
+      },
+      {
+        "name": "Node.js / Express.js / Restify",
+        "level": 100
+      },
+      {
+        "name": "Headless CMS (Payload, Contentful)",
+        "level": 40
+      },
+      {
+        "name": "PostgreSQL / MongoDB / DynamoDB",
+        "level": 90
+      },
+      {
+        "name": "AWS (Certified Developer Associate)",
+        "level": 40
+      },
+      {
+        "name": "AI / LLM APIs & agentic coding",
+        "level": 30
+      },
+      {
+        "name": "Angular / RxJS",
+        "level": 80
+      },
+      {
+        "name": "Testing (Jest, Cypress, Playwright)",
+        "level": 80
+      },
+      {
+        "name": "Mobile (Flutter, Dart, Kotlin, Swift)",
+        "level": 20
+      },
+      {
+        "name": "Docker / K8s / CI-CD",
+        "level": 40
+      }
+    ],
+    "soft": [
+      {
+        "name": "Resolução de problemas",
+        "level": 5
+      },
+      {
+        "name": "Adaptabilidade",
+        "level": 5
+      },
+      {
+        "name": "Pensamento crítico",
+        "level": 5
+      },
+      {
+        "name": "Atenção ao detalhe",
+        "level": 4
+      }
+    ],
+    "detailedTechnical": [
+      {
+        "name": "React + TypeScript + Frontend Moderno",
+        "level": 5,
+        "experience": "4 anos",
+        "details": [
+          "Aplicações React complexas desenvolvidas com TypeScript e Vite",
+          "Padrões avançados de React: Context API, hooks personalizados, HOCs",
+          "Gestão de estado com React Context e estado local",
+          "Otimização de desempenho com React.memo, useMemo, useCallback",
+          "Integração com AG-Grid para tabelas de dados complexas",
+          "React Router para navegação SPA com rotas protegidas",
+          "Ferramentas de build modernas: Vite, Webpack e fluxos de trabalho npm/yarn",
+          "Aplicações Next.js com SSR/SSG e routing baseado em ficheiros",
+          "Componentes React acessíveis segundo as normas WCAG para lojas de retalho",
+          "Tailwind CSS a par de design systems em SCSS"
+        ]
+      },
+      {
+        "name": "GraphQL + Apollo + CMS Headless",
+        "level": 4,
+        "experience": "6 anos",
+        "details": [
+          "Consumo de APIs GraphQL a partir do React com Apollo Client e cache normalizada",
+          "Publicação de conteúdos de marketing do Contentful através da camada de dados GraphQL do Gatsby",
+          "Arquitetura do Payload CMS como camada de conteúdo headless sobre um esquema PostgreSQL",
+          "Modelação de coleções, media e relações para a equipa gerir conteúdos sem um programador",
+          "Modelação de conteúdos multilingues (inglês, espanhol, catalão) com localização i18n",
+          "Desenho de esquemas, fragments e otimização de queries e mutations"
+        ]
+      },
+      {
+        "name": "IA / APIs de LLM + Programação Agêntica",
+        "level": 4,
+        "experience": "3 anos",
+        "details": [
+          "API Anthropic Claude e Claude Code para fluxos de desenvolvimento agênticos e em produção",
+          "Integrações com a API OpenAI e a API Google Gemini em protótipos e projetos pessoais",
+          "AWS Bedrock para acesso gerido a modelos dentro de serviços alojados na AWS",
+          "Inferência local com Ollama e LM Studio para cargas offline e sensíveis a custos",
+          "Desenvolvimento de servidores Model Context Protocol (MCP) para agentes com ferramentas",
+          "Adoção precoce desde 2023: Cursor, Claude Code, Codex, Antigravity e Pi"
+        ]
+      },
+      {
+        "name": "Mobile + Multiplataforma",
+        "level": 3,
+        "experience": "2 anos",
+        "details": [
+          "Flutter e Dart para aplicações móveis multiplataforma",
+          "Integração nativa em Kotlin (Android) e Swift (iOS) e platform channels",
+          "RevenueCat para direitos de subscrição, paywalls e compras in-app",
+          "Cadeia de ferramentas Xcode, aprovisionamento de dispositivos e submissão nas lojas",
+          "Sistemas de design partilhados entre front-ends mobile e web"
+        ]
+      },
+      {
+        "name": "Node.js + MongoDB + Arquitetura Full-Stack",
+        "level": 5,
+        "experience": "6 anos",
+        "details": [
+          "Desenvolvimento de APIs RESTful com Restify e Express.js",
+          "MongoDB com esquemas Mongoose e pipelines de agregação",
+          "Autenticação com Passport.js e gestão de sessões",
+          "Arquitetura de microsserviços com serviço de notificações separado",
+          "Modelação de bases de dados com múltiplas coleções por domínio",
+          "Implementação na cloud com AWS Lambda e ecossistema PM2",
+          "Funcionalidades em tempo real com WebSockets e server-sent events",
+          "Microserviços Koa e Express.js por trás de plataformas de consumo em produção",
+          "Desenho de esquemas PostgreSQL e modelação relacional a par de MongoDB e DynamoDB"
+        ]
+      },
+      {
+        "name": "Python + Integração de APIs + Sistemas Financeiros",
+        "level": 4,
+        "experience": "2 anos",
+        "details": [
+          "Migração de sistemas de negociação de commodities na Ørsted usando Python para orquestração de APIs",
+          "Criação de um Stock Market Scanner em Python com integração da API Polygon.io",
+          "Desenvolvimento de servidores Model Context Protocol para agentes de IA interagirem com dados de mercado",
+          "Automação de negociação de opções através da API da Interactive Brokers",
+          "Processamento de dados financeiros e streaming de dados de mercado em tempo real",
+          "Desenvolvimento de clientes de API com requests e pandas para manipulação de dados"
+        ]
+      },
+      {
+        "name": "Javascript ES6+, HTML5, CSS3, SCSS",
+        "level": 5,
+        "experience": "10 anos",
+        "details": [
+          "Funcionalidades modernas ES6+: async/await, destructuring, módulos",
+          "Padrões avançados de JavaScript e programação funcional",
+          "Design responsivo com CSS Grid, Flexbox e Bootstrap",
+          "Pré-processamento SCSS/SASS com módulos CSS",
+          "Compatibilidade entre navegadores e normas de acessibilidade",
+          "Otimização de desempenho e code splitting"
+        ]
+      },
+      {
+        "name": "AWS + Infraestrutura Cloud + DevOps",
+        "level": 4,
+        "experience": "3 anos",
+        "details": [
+          "Serviços AWS: Lambda, EC2, S3, CloudWatch, SES",
+          "Arquitetura serverless com funções AWS Lambda",
+          "Containerização com Docker e estratégias de implementação",
+          "Pipelines CI/CD com Azure DevOps e GitHub Actions",
+          "Gestão e configuração de ambientes",
+          "Monitorização, registo de logs e acompanhamento de desempenho",
+          "AWS Certified Developer – Associate (2024)",
+          "AWS Bedrock para acesso gerido a modelos fundacionais",
+          "Configuração de NGINX e Apache Tomcat, CDN Akamai e caching no edge"
+        ]
+      },
+      {
+        "name": "Angular 2+ a 18 + Desenvolvimento Empresarial",
+        "level": 4,
+        "experience": "6 anos",
+        "details": [
+          "Construção de ferramentas de negociação de commodities e gestão de risco (Angular 13-18)",
+          "Migração de plataformas híbridas AngularJS/Angular para Angular 9+",
+          "Desenvolvimento de módulos bancários, dashboards e visualizações financeiras",
+          "Bibliotecas de componentes, formulários reativos e observables RxJS",
+          "Testes unitários com Jasmine/Karma, E2E com Protractor/Cypress"
+        ]
+      },
+      {
+        "name": "Web Scraping + Processamento de Dados + Automação",
+        "level": 4,
+        "experience": "2 anos",
+        "details": [
+          "Scraping baseado em Puppeteer/Playwright com Chrome headless",
+          "Integração de VPN para scraping de conteúdos com restrições geográficas",
+          "Processamento de dados em massa e operações bulk write no MongoDB",
+          "Tratamento de erros, mecanismos de repetição e limitação de taxa",
+          "Normalização de dados e algoritmos de monitorização de preços",
+          "Testes automatizados com suporte para múltiplos domínios"
+        ]
+      },
+      {
+        "name": "Ferramentas de Desenvolvimento + Fluxo de Trabalho + Testes",
+        "level": 4,
+        "experience": "6 anos",
+        "details": [
+          "IDEs: WebStorm, VS Code com depuração avançada",
+          "Fluxos de trabalho Git, estratégias de branching e revisão de código",
+          "Gestão de pacotes com npm, yarn e otimização de dependências",
+          "Testes: Playwright E2E, testes unitários Jest, testes de integração",
+          "Linting e qualidade de código com ESLint e modo estrito do TypeScript",
+          "Gestão de projetos com Jira, Confluence e metodologias Agile",
+          "Suites end-to-end com Cypress e Playwright, testes unitários com Jest",
+          "Pipelines CircleCI e Jenkins, controlo de versões com TFS e Git",
+          "Análise de logs com SumoLogic, depuração com Fiddler e Chrome DevTools"
+        ]
+      },
+      {
+        "name": "Bibliotecas UI/UX + Sistemas de Componentes",
+        "level": 4,
+        "experience": "5 anos",
+        "details": [
+          "Bootstrap e sistemas personalizados de módulos CSS",
+          "Integração de AG-Grid para visualização de dados complexos",
+          "Angular Material e bibliotecas de componentes personalizadas",
+          "Padrões de design responsivo e desenvolvimento mobile-first",
+          "Implementação de modo escuro e gestão de temas",
+          "Normas de acessibilidade e compatibilidade entre navegadores"
+        ]
+      },
+      {
+        "name": "Arquitetura de Bases de Dados + Analítica",
+        "level": 4,
+        "experience": "6 anos",
+        "details": [
+          "Modelação de MongoDB com coleções específicas por domínio",
+          "Sincronização de bases de dados entre ambiente local e Atlas",
+          "Implementação de analítica de tráfego e de cliques",
+          "Scripts de migração de dados e operações em massa",
+          "Otimização de desempenho e estratégias de indexação",
+          "Planeamento de cópias de segurança e recuperação de desastres"
+        ]
+      },
+      {
+        "name": "Tecnologias Legadas + Competências de Base",
+        "level": 4,
+        "experience": "7+ anos",
+        "details": [
+          "ActionScript 3 (base de tipagem forte para TypeScript)",
+          "Desenvolvimento de aplicações empresariais em Flash/Flex",
+          "Padrões de desenho: MVC, MVVM, Observer, Factory, Singleton",
+          "Paradigmas de programação orientada a objetos e funcional",
+          "Arquitetura orientada a eventos e programação reativa",
+          "Base sólida que permitiu a rápida adoção de frameworks modernas"
+        ]
+      }
+    ],
+    "skillKeywords": [
+      "JavaScript",
+      "TypeScript",
+      "ES6",
+      "ES7",
+      "ES8",
+      "React",
+      "React Hooks",
+      "Next.js",
+      "GraphQL",
+      "Apollo",
+      "Gatsby",
+      "Contentful",
+      "Payload CMS",
+      "Hybris",
+      "Redux",
+      "Jest",
+      "Cypress",
+      "Playwright",
+      "RxJS (redux-observable)",
+      "Node.js",
+      "Express.js",
+      "Webpack",
+      "Vite",
+      "Docker",
+      "AWS Developer Associate 2024",
+      "AWS Bedrock",
+      "Flutter",
+      "Dart",
+      "Kotlin",
+      "Swift",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "RevenueCat",
+      "Anthropic Claude API",
+      "Claude Code",
+      "OpenAI API",
+      "Google Gemini API",
+      "Ollama",
+      "LM Studio",
+      "MongoDB",
+      "DynamoDB",
+      "TFS",
+      "Git",
+      "CircleCI",
+      "i18n localization",
+      "SumoLogic",
+      "Fiddler",
+      "Chrome Developer Tools",
+      "Apache Tomcat",
+      "NGINX",
+      "Unix",
+      "Linux",
+      "WebStorm",
+      "VSCode",
+      "ESLint",
+      "Eclipse",
+      "Maven",
+      "Jenkins",
+      "Xcode",
+      "Akamai",
+      "Google Analytics",
+      "JIRA",
+      "Confluence"
+    ]
+  },
+  "languages": [
+    "Inglês",
+    "Japonês (iniciante)",
+    "Português (em aprendizagem)"
+  ],
+  "hobbies": [
+    "♫ Bachata",
+    "📸 Fotografia",
+    "💻 Hackathons",
+    "✈️ Viagens",
+    "🍜 Comida Asiática"
+  ],
+  "experience": [
+    {
+      "title": "Cofundador Técnico e Programador Principal",
+      "company": "Chatelope",
+      "period": "Setembro 2025 – Presente",
+      "location": "Teletrabalho, fuso horário CET",
+      "website": "https://www.chatelope.com",
+      "achievements": [
+        "Construção do Chatelope de raiz: um gestor de conversas de IA multiplataforma (web + Flutter mobile) que importa, agrega, faz cópias de segurança e analisa o histórico de conversas do ChatGPT, Claude e Gemini",
+        "Aplicação Web: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS, shadcn/ui, SQLite com Drizzle ORM, NextAuth.js com Google OAuth",
+        "Aplicação Móvel: Flutter com gestão de estado Riverpod, Drift (ORM SQLite), navegação Go Router e Google OAuth — para Android e iOS",
+        "Criação de um registo dinâmico de modelos de IA multi-fornecedor com suporte para OpenAI, Anthropic, Google, Ollama e LM Studio, com obtenção de modelos em tempo real, enriquecimento de metadados, informação de preços e lógica de fallback",
+        "Implementação de chat de IA com streaming em tempo real, renderização com ReactMarkdown, blocos de código com realce de sintaxe e um padrão de UX com cursor intermitente",
+        "Desenvolvimento de parsers de importação específicos por plataforma para ChatGPT, Claude e Gemini (ficheiros de exportação e extração de links partilhados via Puppeteer)",
+        "Arquitetura de cópias de segurança na cloud com Google Drive e sincronização multiplataforma, com backups incrementais, registos de manifesto/dispositivo e exportação/importação de snapshots",
+        "Construção de um sistema de plugins extensível com SDK definido, plugin de etiquetagem automática e arquitetura de extensibilidade em camadas para futuras integrações de terceiros",
+        "Implementação de site de documentação Fumadocs, sistema de temas/skins, subscrições e gateway de API de créditos geridos",
+        "Reforço da segurança do código: rotas de API protegidas por OAuth, proteção contra path traversal em anexos, escape de padrões SQL LIKE e eliminação de consultas N+1",
+        "Configuração de implementação com Docker + Coolify (VPS Hetzner) com CI/CD automatizado, volumes SQLite persistentes e SSL Let's Encrypt",
+        "Tecnologias: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
+      ]
+    },
+    {
+      "title": "Fundador e Programador Full-Stack",
+      "company": "Reveller",
+      "period": "Abril 2026 – Atualidade",
+      "location": "Teletrabalho, fuso horário CET",
+      "website": "https://www.reveller.app",
+      "achievements": [
+        "Lancei o Reveller, uma aplicação de recuperação do tempo de ecrã que combina registo de hábitos com diário, objetivos, desafios e grupos de apoio; publicada em produção no Google Play (versão 1.0.0+26) ao longo de 541 commits.",
+        "Desenvolvi toda a stack de ponta a ponta: um cliente Flutter (Riverpod, go_router, Freezed, Hive) suportado por uma API REST propria em Dart Shelf sobre PostgreSQL com 21 migrações de esquema versionadas.",
+        "Implementei a autenticação e a segurança internamente: tokens JWT de acesso e renovação com hashing bcrypt, Google Sign-In e Sign in with Apple, e armazenamento seguro de tokens no dispositivo.",
+        "Desenvolvi a camada nativa Android em Kotlin: um Accessibility Service e um serviço em primeiro plano para bloqueio quase instantaneo de aplicações com PIN de exceção, além da recolha de estatísticas de utilização e classificação de aplicações para o painel de tempo de ecrã.",
+        "Integrei a API Anthropic Claude no servidor para gerar exercícios de terapia cognitivo-comportamental e metacognitiva, afirmações diarias e sugestões de diário, com saída JSON estruturada e alternativa segura em caso de falha da API.",
+        "Escrevi um shader GLSL de chroma key próprio com uma ferramenta de afinacao no browser, permitindo keying específico por clipe dos vídeos de natureza sobrepostos.",
+        "Monetização através do RevenueCat (purchases_flutter) com reconciliação de direitos no servidor como fonte de verdade acima do SDK da loja.",
+        "Criei o pacote partilhado reveller_asset_repository, que entrega recursos verificados por SHA-256 e em cache LRU a partir do Cloudflare R2, reutilizado pelo Reveller e pelo Poekito.",
+        "Construí funcionalidades de responsabilização social: grupos, desafios sazonais e classificações com pontuação no servidor, a par de diário, registo de humor e associação do tempo recuperado a objetivos.",
+        "Compilei a API Dart em modo AOT numa imagem Docker mínima baseada em scratch e implementei-a com Postgres via Coolify, com GitHub Actions a correr análise e testes em cada push.",
+        "Disponibilizei uma consola de administração protegida por token para QA e suporte, com registo de auditoria de cada escrita, e eliminação de conta na aplicação para conformidade com a Google Play."
+      ]
+    },
+    {
+      "title": "Fundador e Programador Móvel",
+      "company": "Poekito",
+      "period": "Maio 2026 – Atualidade",
+      "location": "Teletrabalho, fuso horário CET",
+      "website": "https://poekito.com",
+      "achievements": [
+        "Lancei o Poekito, uma aplicação Android que sobrepõe um animal de estimação animado a outras aplicações para incentivar hábitos conscientes de tempo de ecrã; publicada em produção no Google Play (versão 1.0.0+13) ao longo de 173 commits.",
+        "Desenvolvi um serviço em primeiro plano nativo em Kotlin que desenha sprites animados sobre outras aplicações através de SYSTEM_ALERT_WINDOW, controlado a partir do Flutter por um MethodChannel.",
+        "Recorri às APIs de estatísticas de utilização do Android e a monitorização em segundo plano agendada pelo WorkManager para detetar a aplicação ativa e acionar as sobreposições apenas nas aplicações escolhidas pelo utilizador.",
+        "Implementei efeitos ambientais em ecrã inteiro - relva a crescer, água a subir, vidro a congelar e a estalar - como renderizadores nativos próprios em Kotlin.",
+        "Escrevi um shader GLSL de chroma key espelhado em Dart e em Kotlin para que os vídeos de natureza sobrepostos sejam apresentados de forma idêntica na aplicação e na sobreposição nativa.",
+        "Disponibilizei uma compra unica na aplicação através do RevenueCat, com verificação de direitos no servidor e um percurso de codigos promocionais, mantendo os direitos independentes do SDK da loja.",
+        "Construí o site de marketing em Next.js 16 e React 19 com Tailwind CSS v4, localizado em cinco idiomas, reforcado com uma CSP estrita e analítica dependente de consentimento, e monitorizado com Sentry.",
+        "Entreguei os recursos em tempo de execução a partir de um bucket Cloudflare R2 com verificação SHA-256, cache LRU e alternativa offline, partilhando o pipeline de recursos com o Reveller.",
+        "Concebi a aplicação sem contas de utilizador, usando tokens de sessão anónimos, de modo que não são recolhidos dados pessoais."
+      ]
+    },
+    {
+      "title": "Programador de Software Principal",
+      "company": "MicroPeace.org",
+      "period": "Fevereiro 2026 – Maio 2026",
+      "location": "Teletrabalho, fuso horário CET",
+      "website": "https://www.micropeace.org",
+      "achievements": [
+        "Construção de raiz de uma plataforma web full-stack para uma organização sem fins lucrativos, usando Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9 e Tailwind CSS",
+        "Arquitetura do Payload CMS como camada de conteúdo headless, permitindo a colaboradores não técnicos gerir conteúdos, multimédia e traduções sem envolvimento de programadores",
+        "Implementação de fluxos de autenticação OAuth com a Google e a Apple como fornecedores de identidade para criação de contas e início de sessão",
+        "Implementação de suporte multilingue (i18n) em toda a plataforma para servir um público internacional, com localização de conteúdos gerida através do Payload CMS",
+        "Desenho e implementação do esquema PostgreSQL 17.9 e da camada de API em Node.js para dados de utilizadores, relações de conteúdo e relatórios",
+        "Integração de várias APIs de terceiros e do Google Analytics para acompanhamento de envolvimento e dashboards de relatórios",
+        "Configuração de implementação em VPS próprio com proxy reverso NGINX, gestão de processos PM2 e pipeline CI/CD para o frontend Next.js e a API Node.js",
+        "Tecnologias: Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
+      ]
+    },
+    {
+      "title": "Cofundador Técnico",
+      "company": "PricedOff.com",
+      "period": "Junho 2024 – Presente",
+      "location": "Teletrabalho, fusos horários EST a CET",
+      "website": "https://www.pricedoff.com",
+      "achievements": [
+        "Arquitetura de Frontend: Aplicação React + TypeScript com Vite, componentes de UI Bootstrap, AG-Grid para tabelas complexas de dados de produtos, React Router com rotas protegidas e React Context para autenticação e gestão de estado",
+        "Sistemas de Backend: Servidor Restify com MongoDB, autenticação Passport.js com múltiplas estratégias, sessões Express com armazenamento em MongoDB, limitação de taxa e middleware de segurança",
+        "Microsserviços: Serviço de notificações autónomo com Fastify, serviço de email com integração SES, serviço de watchlist para monitorização de produtos e alertas, analítica de cliques para links de afiliação",
+        "Arquitetura de Base de Dados: MongoDB com coleções separadas por domínio Amazon (com, ca, es, de, fr, it, co.uk), esquemas Mongoose para produtos/utilizadores/influenciadores/analítica, ambientes local e Atlas com capacidade de sincronização",
+        "Sistema de Scraping de Produtos: Scraping com Puppeteer/Playwright e Chrome headless, integração com AWS Lambda para scraping na cloud, suporte de VPN para domínios com restrições geográficas, operações bulk write para atualizações eficientes",
+        "DevOps e Testes: Suite de testes E2E em Playwright, compilação TypeScript em modo estrito, ESLint para qualidade de código, configuração do ecossistema PM2 para implementação em produção",
+        "Funcionalidades de Negócio: Painel de administração para gestão de afiliados e utilizadores, algoritmos de monitorização de preços com alertas, páginas de destino otimizadas para SEO com geração de conteúdo assistida por IA, suporte multi-domínio (mercados EUA, Canadá e UE)",
+        "Fluxo de Desenvolvimento: Rotas de proxy no frontend, configuração de ambientes com gestão de .env, utilitários de base de dados para sincronização/limpeza/análise, executor interativo de scripts para operações de base de dados"
+      ]
+    },
+    {
+      "title": "Cofundador e Programador",
+      "company": "Hilo Information Technology Inc.",
+      "period": "Set 2014 – Presente",
+      "location": "Toronto, Ontário, Canadá e UE",
+      "website": "https://www.hilo.ca",
+      "achievements": [
+        "Cofundação de uma empresa de desenvolvimento de software sediada em Toronto, especializada na resolução de problemas técnicos complexos que impedem as empresas de escalar de forma eficiente",
+        "Desenvolvimento Full-Stack: Entrega de aplicações web e móveis com React, Next.js e Node.js, com desenho de APIs RESTful e GraphQL",
+        "Arquitetura Cloud: Conceção de infraestruturas escaláveis em AWS, GCP e Azure com estratégias de otimização de custos",
+        "Otimização de Desempenho: Eliminação de estrangulamentos aplicacionais e redução de tempos de carregamento através de melhorias de código e de infraestrutura",
+        "Modernização de Sistemas Legados: Modernização de sistemas obsoletos, redução de dívida técnica e implementação de boas práticas para crescimento sustentável",
+        "Clientes Empresariais: Entrega de soluções para clientes de referência como Scotia Bank, RBC, TD Bank, BMO, Nordea, Ørsted, CBC, Bell Media, Allstate, Telus, Loblaws Digital e Shaw Media",
+        "Segurança e Conformidade: Implementação de práticas de segurança de nível empresarial para setores regulados"
+      ]
+    },
+    {
+      "title": "Programador Frontend Sénior",
+      "company": "Ørsted",
+      "period": "Jun 2020 – Julho 2024",
+      "location": "Copenhaga, Dinamarca",
+      "website": "https://www.orsted.com",
+      "achievements": [
+        "Markets and Risk (11/2021 - Atual): Desenvolvimento do frontend da ferramenta de gestão de posições de negociação de commodities, em Angular v13 a 18",
+        "Desenvolvimento de uma ferramenta de linha de comandos em Node.js para migrar dados entre sistemas através de orquestração de APIs",
+        "Desenvolvimento de um backend simulado com Microsoft SignalR para streaming de dados por websockets",
+        "Utilização de Kubernetes e Docker para implementar a aplicação Angular através de pipelines CI/CD do Azure",
+        "Marketing and Branding (05/2020): Containerização de imagens do CMS Sitecore com Docker, com vários módulos integrados",
+        "Desenvolvimento de diversos componentes de UI para o Sitecore em JavaScript, como linha temporal interativa, teasers e carrosséis de imagens",
+        "Atualização dos estilos globais de todos os websites e sites de campanha da Ørsted",
+        "Desenvolvimento de um site de campanha para o projeto Sea Hydrogen to Land, para o escritório dos Países Baixos",
+        "Consultoria, criação e apresentação de boas práticas de otimização de websites, como entrega de imagens responsivas",
+        "Participação em workshops de Scaled Agile for Enterprise"
+      ]
+    },
+    {
+      "title": "Programador Frontend Sénior",
+      "company": "Nordea",
+      "period": "Jan 2019 – Maio 2020",
+      "location": "Copenhaga, Dinamarca",
+      "website": "https://www.nordea.com",
+      "achievements": [
+        "Desenvolvimento e lançamento do módulo de Contas e Transações (Angular 9), que permite aos clientes consultar saldos, detalhes e transações de cada conta",
+        "Manutenção dos componentes de visualização do dashboard de câmbios, como gráfico de fluxo de caixa, cotações, transações e taxas históricas",
+        "Desenvolvimento de diversos componentes: calendário de divisas, indicadores-chave, tabelas de taxas históricas, diálogos de impressão e diálogos de personalização de colunas",
+        "Colaboração com outros programadores frontend na migração da plataforma híbrida AngularJS/Angular para Angular 9",
+        "Gestão de tarefas em JIRA e elaboração dos detalhes do blog de lançamento em cada sprint",
+        "Escrita de testes unitários e de testes end-to-end para novos componentes",
+        "Revisão de código da equipa de frontend em sprints quinzenais"
+      ]
+    },
+    {
+      "title": "Programador de UI Sénior",
+      "company": "BMO Bank of Montreal",
+      "period": "Jan 2016 – Set 2018",
+      "location": "Toronto, Ontário, Canadá",
+      "website": "https://www.bmo.com",
+      "achievements": [
+        "Desenvolvimento de uma terceira aplicação de onboarding de clientes, responsiva para dispositivos móveis, em Angular 5",
+        "Conclusão do redesenho da ferramenta de investimento automatizado Smartfolio do BMO (Angular 1.5)",
+        "Desenvolvimento do Personal Wealth Onboarding (myWealth) do BMO durante ano e meio, com Angular, Angular Material e Node.js",
+        "Implementação de formulários de recolha de dados de clientes e desenvolvimento de componentes: calendário, breadcrumb, tiles de secção, linhas de conta e edição em tempo real",
+        "Implementação de requisitos de usabilidade em toda a aplicação, incluindo diretivas Angular para gerir o estado de foco dos elementos",
+        "Implementação da internacionalização Angular entre inglês e francês, com ficheiros JSON para diferentes linhas de negócio",
+        "Correção de bugs no Angular Material que afetavam o Internet Explorer e o Safari em desktop e mobile",
+        "Utilização diária de TypeScript (ES6), WebStorm, git, JIRA, Bitbucket e gulp.js",
+        "Desenvolvimento de uma aplicação de demonstração para iPad no browser, para captura de documentos em mobile",
+        "Desenvolvimento de uma página de índice de conteúdos dinâmica para mapas de processos do Centro de Excelência e Educação do BMO",
+        "Liderança de uma pequena equipa de UI de quatro pessoas no projeto myWealth"
+      ]
+    },
+    {
+      "title": "Programador Interativo",
+      "company": "Publicis Modem (Nurun)",
+      "period": "Jan 2015 – Fev 2016",
+      "location": "Toronto, Ontário, Canadá",
+      "website": "https://www.publicis.com",
+      "achievements": [
+        "Desenvolvimento de aplicações de página única para clientes, com React.js e MongoDB",
+        "Desenvolvimento de banners publicitários interativos em HTML, JS e Flash",
+        "Automação do fluxo de trabalho de desenvolvimento, empacotamento e publicação de anúncios e páginas web com Node.js e gulp.js",
+        "Utilização do CMS Alfresco para atualizar o website HomeDepot.ca",
+        "Criação de feeds dinâmicos e gestão de tráfego de anúncios com o Google DoubleClick"
+      ]
+    },
+    {
+      "title": "Programador de UI Sénior",
+      "company": "Canadian Broadcast Corporation",
+      "period": "Set 2011 – Set 2013",
+      "location": "Toronto, Ontário, Canadá",
+      "website": "https://www.cbc.ca",
+      "achievements": [
+        "Liderança do redesenho do leitor multimédia da CBC, com recolha de requisitos junto de vários departamentos",
+        "Manutenção do leitor de vídeo da CBC (cbc.ca/player/), melhorando funcionalidades existentes e adicionando novos plug-ins",
+        "Adição de funcionalidades: publicidade DoubleClick, legendas, controlos de volume, ecrã inteiro e partilha em redes sociais",
+        "Integração da rede de distribuição de conteúdos Conviva, transmissão em direto, seleção de largura de banda, Akamai HD e analítica Omniture",
+        "Trabalho com sistemas de gestão de conteúdos (CMS) como o Polopoly para criar páginas de programas",
+        "Formação de colegas sobre incorporação e codificação de conteúdos para leitores multimédia",
+        "Implementação de leitores de vídeo HTML5 com ThePlatform e video.js",
+        "Atualização regular do Platform Development Kit do leitor para corrigir erros",
+        "Criação de novos skins para o leitor da CBC, com alteração dinâmica de tamanho, disposição e localização dos controlos",
+        "Lançamento de micro sites eleitorais canadianos: portais da Colúmbia Britânica, Nova Escócia e Saskatchewan",
+        "Apoio na criação de micro sites de programas com o Expression Engine"
+      ]
+    },
+    {
+      "title": "Programador de UI",
+      "company": "Spindrift & Bruce Power (contrato)",
+      "period": "Jun 2010 – Ago 2011",
+      "location": "Toronto, Ontário, Canadá",
+      "achievements": [
+        "Programação de uma aplicação de visualização de mapas de site com Flash, bibliotecas Flare e um web spider open source modificado",
+        "Utilização de Flex para desenvolver um módulo de recolha de dados de manutenção da central nuclear da Bruce Power",
+        "Baseado na micro arquitetura Mate e consumindo webservices do middleware NextAxiom",
+        "Conceção e documentação de uma API de analítica para aplicações Silverlight",
+        "Trabalho numa aplicação de gestão de incidentes desenvolvida em Silverlight com o padrão MVVM",
+        "Desenvolvimento da primeira versão do website da empresa e de várias revisões posteriores"
+      ]
+    }
+  ],
+  "additionalExperience": "Funções anteriores na CBC, Publicis, Spindrift/Bruce Power, OgilvyOne e PlanetEye — detalhes no LinkedIn.",
+  "education": [
+    "Diploma em Informática (Programador Analista) — Sault College",
+    "Formação contínua: Angular/RxJS/TS (Udemy), MongoDB University, React/Redux (Egghead), NoSQL/Node.js (Lynda), Udacity Web Dev"
+  ]
+}

@@ -5,6 +5,20 @@
     "contact": {
       "email": "mark.obradley@gmail.com",
       "phone": "",
+      "phones": [
+        {
+          "label": "CA",
+          "number": "+1 289 672 2888"
+        },
+        {
+          "label": "DK",
+          "number": "+45 91 11 80 40"
+        },
+        {
+          "label": "PT",
+          "number": "+351 914 418 913"
+        }
+      ],
       "location": "",
       "nationality": "Canadiense",
       "residence": "Portugal",
@@ -13,24 +27,75 @@
       "website": "https://mb-hilo.github.io"
     }
   },
-  "profile": "Desarrollador full-stack y co-fundador técnico con más de 15 años de experiencia construyendo plataformas web escalables, aplicaciones cloud-native e interfaces centradas en el usuario para empresas y startups (CBC, BMO, Ørsted, Nordea, Publicis). Actualmente co-fundador de la empresa de consultoría IT www.hilo.ca y el SaaS www.pricedOff.com, una plataforma de inteligencia de precios orientada al consumidor. Lidero arquitectura, servicios backend (Node.js, MongoDB, AWS), desarrollo de extensiones Chrome y automatización inteligente para pipelines de datos, afiliados y marketing. Mi estilo de desarrollo es pragmático y enfocado en rendimiento, basado en código limpio y testeable con iteración rápida.",
+  "profile": "Desarrollador full-stack y co-fundador técnico con más de 15 años de experiencia construyendo plataformas web escalables, aplicaciones cloud-native e interfaces centradas en el usuario para empresas y startups (CBC, BMO, Ørsted, Nordea, Publicis). Actualmente co-fundador de la empresa de consultoría IT www.hilo.ca y el SaaS www.pricedOff.com, una plataforma de inteligencia de precios orientada al consumidor. Lidero arquitectura, servicios backend (Node.js, MongoDB, AWS), desarrollo de extensiones Chrome y automatización inteligente para pipelines de datos, afiliados y marketing. Mi estilo de desarrollo es pragmático y enfocado en rendimiento, basado en código limpio y testeable con iteración rápida. Adoptante temprano de herramientas de codificación con IA desde 2023. He utilizado todos los principales proveedores de LLM y entornos de agentes (Cursor, Claude Code, Codex, Antigravity, Pi) y desplegado más de una docena de proyectos personales que han consumido millones de tokens.",
   "skills": {
     "technical": [
-      { "name": "React / TypeScript", "level": 70 },
-      { "name": "Python / Anaconda / Streamlit", "level": 20 },
-      { "name": "Node.js / Restify", "level": 90 },
-      { "name": "MongoDB", "level": 85 },
-      { "name": "AWS / Azure DevOps", "level": 30 },
-      { "name": "Chrome Extensions", "level": 30 },
-      { "name": "Angular", "level": 88 },
-      { "name": "Docker / K8s", "level": 40 },
-      { "name": "Claude Code / Agentic Coding / MCP Tool Dev", "level": 15 }
+      {
+        "name": "JavaScript / TypeScript / ES6+",
+        "level": 180
+      },
+      {
+        "name": "React / React Hooks / Next.js",
+        "level": 90
+      },
+      {
+        "name": "GraphQL / Apollo / Gatsby",
+        "level": 60
+      },
+      {
+        "name": "Node.js / Express.js / Restify",
+        "level": 100
+      },
+      {
+        "name": "Headless CMS (Payload, Contentful)",
+        "level": 40
+      },
+      {
+        "name": "PostgreSQL / MongoDB / DynamoDB",
+        "level": 90
+      },
+      {
+        "name": "AWS (Certified Developer Associate)",
+        "level": 40
+      },
+      {
+        "name": "AI / LLM APIs & agentic coding",
+        "level": 30
+      },
+      {
+        "name": "Angular / RxJS",
+        "level": 80
+      },
+      {
+        "name": "Testing (Jest, Cypress, Playwright)",
+        "level": 80
+      },
+      {
+        "name": "Mobile (Flutter, Dart, Kotlin, Swift)",
+        "level": 20
+      },
+      {
+        "name": "Docker / K8s / CI-CD",
+        "level": 40
+      }
     ],
     "soft": [
-      { "name": "Resolución de problemas", "level": 5 },
-      { "name": "Adaptabilidad", "level": 5 },
-      { "name": "Pensamiento crítico", "level": 5 },
-      { "name": "Atención al detalle", "level": 4 }
+      {
+        "name": "Resolución de problemas",
+        "level": 5
+      },
+      {
+        "name": "Adaptabilidad",
+        "level": 5
+      },
+      {
+        "name": "Pensamiento crítico",
+        "level": 5
+      },
+      {
+        "name": "Atención al detalle",
+        "level": 4
+      }
     ],
     "detailedTechnical": [
       {
@@ -44,7 +109,48 @@
           "Optimización de rendimiento con React.memo, useMemo, useCallback",
           "Integración con AG-Grid para tablas de datos complejas",
           "React Router para navegación SPA con rutas protegidas",
-          "Herramientas de build modernas: Vite, Webpack y workflows npm/yarn"
+          "Herramientas de build modernas: Vite, Webpack y workflows npm/yarn",
+          "Aplicaciones Next.js con SSR/SSG y enrutado basado en archivos",
+          "Componentes React accesibles conformes a WCAG para escaparates de retail",
+          "Tailwind CSS junto a sistemas de diseño en SCSS"
+        ]
+      },
+      {
+        "name": "GraphQL + Apollo + CMS Headless",
+        "level": 4,
+        "experience": "6 años",
+        "details": [
+          "Consumo de APIs GraphQL desde React con Apollo Client y caché normalizada",
+          "Publicación de contenido de marketing desde Contentful mediante la capa de datos GraphQL de Gatsby",
+          "Arquitectura de Payload CMS como capa de contenido headless sobre un esquema PostgreSQL",
+          "Modelado de colecciones, medios y relaciones para que el equipo gestione el contenido sin un desarrollador",
+          "Modelado de contenido multilingüe (inglés, español, catalán) con localización i18n",
+          "Diseño de esquemas, fragments y optimización de consultas y mutaciones"
+        ]
+      },
+      {
+        "name": "IA / APIs de LLM + Programación Agéntica",
+        "level": 4,
+        "experience": "3 años",
+        "details": [
+          "API de Anthropic Claude y Claude Code para flujos de desarrollo agénticos y en producción",
+          "Integraciones con la API de OpenAI y la API de Google Gemini en prototipos y proyectos personales",
+          "AWS Bedrock para acceso gestionado a modelos dentro de servicios alojados en AWS",
+          "Inferencia local con Ollama y LM Studio para cargas offline y sensibles al coste",
+          "Desarrollo de servidores Model Context Protocol (MCP) para agentes con herramientas",
+          "Adopción temprana desde 2023: Cursor, Claude Code, Codex, Antigravity y Pi"
+        ]
+      },
+      {
+        "name": "Móvil + Multiplataforma",
+        "level": 3,
+        "experience": "2 años",
+        "details": [
+          "Flutter y Dart para aplicaciones móviles multiplataforma",
+          "Integración nativa con Kotlin (Android) y Swift (iOS) y platform channels",
+          "RevenueCat para derechos de suscripción, paywalls y compras dentro de la app",
+          "Cadena de herramientas Xcode, aprovisionamiento de dispositivos y envío a tiendas",
+          "Sistemas de diseño compartidos entre front-ends móviles y web"
         ]
       },
       {
@@ -58,7 +164,9 @@
           "Arquitectura de microservicios con servicio de notificaciones separado",
           "Diseño de base de datos con múltiples colecciones por dominio",
           "Despliegue en la nube con AWS Lambda y ecosistema PM2",
-          "Funcionalidades en tiempo real con WebSockets y eventos enviados por servidor"
+          "Funcionalidades en tiempo real con WebSockets y eventos enviados por servidor",
+          "Microservicios Koa y Express.js detrás de plataformas de consumo en producción",
+          "Diseño de esquemas PostgreSQL y modelado relacional junto a MongoDB y DynamoDB"
         ]
       },
       {
@@ -97,7 +205,10 @@
           "Containerización Docker y estrategias de despliegue",
           "Pipelines CI/CD con Azure DevOps y GitHub Actions",
           "Gestión de entornos y configuración",
-          "Monitoreo, logging y seguimiento de rendimiento"
+          "Monitoreo, logging y seguimiento de rendimiento",
+          "AWS Certified Developer – Associate (2024)",
+          "AWS Bedrock para acceso gestionado a modelos fundacionales",
+          "Configuración de NGINX y Apache Tomcat, CDN Akamai y caché en el edge"
         ]
       },
       {
@@ -135,7 +246,10 @@
           "Gestión de paquetes con npm, yarn y optimización de dependencias",
           "Testing: Playwright E2E, tests unitarios Jest, tests de integración",
           "Linting y calidad de código con ESLint y modo estricto TypeScript",
-          "Gestión de proyectos con Jira, Confluence y workflows Agile"
+          "Gestión de proyectos con Jira, Confluence y workflows Agile",
+          "Suites end-to-end con Cypress y Playwright, pruebas unitarias con Jest",
+          "Pipelines de CircleCI y Jenkins, control de versiones con TFS y Git",
+          "Análisis de logs con SumoLogic, depuración con Fiddler y Chrome DevTools"
         ]
       },
       {
@@ -177,33 +291,91 @@
           "Base sólida que permitió adopción rápida de frameworks modernos"
         ]
       }
+    ],
+    "skillKeywords": [
+      "JavaScript",
+      "TypeScript",
+      "ES6",
+      "ES7",
+      "ES8",
+      "React",
+      "React Hooks",
+      "Next.js",
+      "GraphQL",
+      "Apollo",
+      "Gatsby",
+      "Contentful",
+      "Payload CMS",
+      "Hybris",
+      "Redux",
+      "Jest",
+      "Cypress",
+      "Playwright",
+      "RxJS (redux-observable)",
+      "Node.js",
+      "Express.js",
+      "Webpack",
+      "Vite",
+      "Docker",
+      "AWS Developer Associate 2024",
+      "AWS Bedrock",
+      "Flutter",
+      "Dart",
+      "Kotlin",
+      "Swift",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "RevenueCat",
+      "Anthropic Claude API",
+      "Claude Code",
+      "OpenAI API",
+      "Google Gemini API",
+      "Ollama",
+      "LM Studio",
+      "MongoDB",
+      "DynamoDB",
+      "TFS",
+      "Git",
+      "CircleCI",
+      "i18n localization",
+      "SumoLogic",
+      "Fiddler",
+      "Chrome Developer Tools",
+      "Apache Tomcat",
+      "NGINX",
+      "Unix",
+      "Linux",
+      "WebStorm",
+      "VSCode",
+      "ESLint",
+      "Eclipse",
+      "Maven",
+      "Jenkins",
+      "Xcode",
+      "Akamai",
+      "Google Analytics",
+      "JIRA",
+      "Confluence"
     ]
   },
-  "languages": ["Inglés", "Japonés (principiante)", "Portugués (aprendiendo)"],
-  "hobbies": ["Bachata", "Fotografía", "Hackathons", "Viajar", "Comida Asiática"],
+  "languages": [
+    "Inglés",
+    "Japonés (principiante)",
+    "Portugués (aprendiendo)"
+  ],
+  "hobbies": [
+    "Bachata",
+    "Fotografía",
+    "Hackathons",
+    "Viajar",
+    "Comida Asiática"
+  ],
   "experience": [
-    {
-      "title": "Desarrollador de Software Principal",
-      "company": "MicroPeace.org",
-      "period": "Febrero 2026 – Mayo 2026",
-      "location": "Remoto",
-      "website": "https://www.micropeace.org",
-      "achievements": [
-        "Construida desde cero una plataforma web full-stack sin fines de lucro usando Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9 y Tailwind CSS",
-        "Arquitecturado Payload CMS como capa de contenido headless para que el personal no técnico gestione contenido, medios y traducciones sin intervención de desarrolladores",
-        "Implementados flujos de autenticación OAuth con Google y Apple como proveedores de identidad para la creación de cuentas e inicio de sesión",
-        "Desarrollado soporte multilingüe (i18n) para una audiencia internacional, con localización de contenido gestionada a través de Payload CMS",
-        "Diseñado e implementado el esquema PostgreSQL 17.9 y la capa API Node.js para datos de usuarios, relaciones de contenido e informes",
-        "Integradas múltiples APIs de terceros y Google Analytics para seguimiento de engagement y paneles de reporting",
-        "Configurado despliegue VPS auto-alojado con proxy inverso NGINX, gestión de procesos PM2 y pipeline CI/CD para el frontend Next.js y la API Node.js",
-        "Tecnologías: Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
-      ]
-    },
     {
       "title": "Co-fundador Técnico y Desarrollador Principal",
       "company": "Chatelope",
       "period": "Septiembre 2025 – Presente",
-      "location": "Remoto",
+      "location": "Remoto, zona horaria CET",
       "website": "https://www.chatelope.com",
       "achievements": [
         "Construido Chatelope desde cero: un gestor de conversaciones IA multiplataforma (web + Flutter móvil) que importa, agrega, respalda y analiza historiales de ChatGPT, Claude y Gemini",
@@ -218,6 +390,61 @@
         "Código endurecido en seguridad: rutas API protegidas por OAuth, protección contra path traversal, escape de patrones SQL LIKE y eliminación de consultas N+1",
         "Configurado despliegue Docker + Coolify (Hetzner VPS) con CI/CD automatizado, volúmenes SQLite persistentes y SSL Let's Encrypt",
         "Tecnologías: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
+      ]
+    },
+    {
+      "title": "Fundador y Desarrollador Full-Stack",
+      "company": "Reveller",
+      "period": "Abril 2026 – Actualidad",
+      "location": "Remoto, zona horaria CET",
+      "website": "https://www.reveller.app",
+      "achievements": [
+        "Lancé Reveller, una aplicación de recuperación del tiempo de pantalla que combina seguimiento de hábitos con diario, objetivos, retos y grupos de apoyo; publicada en producción en Google Play (versión 1.0.0+26) a lo largo de 541 commits.",
+        "Desarrollé el stack completo de principio a fin: un cliente Flutter (Riverpod, go_router, Freezed, Hive) respaldado por una API REST propia en Dart Shelf sobre PostgreSQL con 21 migraciones de esquema versionadas.",
+        "Implementé la autenticacion y la seguridad internamente: tokens JWT de acceso y refresco con hash de contraseñas bcrypt, Google Sign-In y Sign in with Apple, y almacenamiento seguro de tokens en el dispositivo.",
+        "Desarrollé la capa nativa de Android en Kotlin: un Accessibility Service y un servicio en primer plano para bloqueo casi instantáneo de aplicaciones con PIN de excepción, ademas de recopilacion de estadísticas de uso y clasificación de aplicaciones para el panel de tiempo de pantalla.",
+        "Integré la API de Anthropic Claude en el servidor para generar ejercicios de terapia cognitivo-conductual y metacognitiva, afirmaciones diarias y propuestas de diario, con salida JSON estructurada y respaldo seguro si la API falla.",
+        "Escribí un shader GLSL de chroma key propio con una herramienta de ajuste en el navegador, que permite un keying especifico por clip de los vídeos de naturaleza superpuestos.",
+        "Monetización mediante RevenueCat (purchases_flutter) con reconciliación de derechos en el servidor como fuente de verdad por encima del SDK de la tienda.",
+        "Creé el paquete compartido reveller_asset_repository, que entrega recursos verificados con SHA-256 y cacheados por LRU desde Cloudflare R2, reutilizado por Reveller y Poekito.",
+        "Construí funciones de responsabilidad social: grupos, retos por temporadas y clasificaciónes con puntuación en el servidor, junto con diario, seguimiento del estado de ánimo y asignación del tiempo recuperado a objetivos.",
+        "Compilé la API de Dart en modo AOT dentro de una imagen Docker mínima basada en scratch y la desplegué con Postgres mediante Coolify, con GitHub Actions ejecutando análisis y pruebas en cada push.",
+        "Entregué una consola de administración protegida por token para QA y soporte, con registro de auditoría de cada escritura, y borrado de cuenta desde la app para cumplir con Google Play."
+      ]
+    },
+    {
+      "title": "Fundador y Desarrollador Móvil",
+      "company": "Poekito",
+      "period": "Mayo 2026 – Actualidad",
+      "location": "Remoto, zona horaria CET",
+      "website": "https://poekito.com",
+      "achievements": [
+        "Lancé Poekito, una aplicación Android que superpone una mascota animada sobre otras aplicaciones para fomentar hábitos conscientes de tiempo de pantalla; publicada en producción en Google Play (versión 1.0.0+13) a lo largo de 173 commits.",
+        "Desarrollé un servicio en primer plano nativo en Kotlin que dibuja sprites animados de la mascota sobre otras aplicaciones mediante SYSTEM_ALERT_WINDOW, controlado desde Flutter a traves de un MethodChannel.",
+        "Utilicé las APIs de estadísticas de uso de Android y monitorización en segundo plano con WorkManager para detectar la aplicación en primer plano y activar las superposiciones solo en las aplicaciones elegidas por el usuario.",
+        "Implementé efectos ambientales a pantalla completa - hierba que crece, agua que sube, cristal que se escarcha y se agrieta - como renderizadores nativos propios en Kotlin.",
+        "Escribí un shader GLSL de chroma key replicado en Dart y en Kotlin para que los vídeos de naturaleza superpuestos se vean igual dentro de la app y en la superposicion nativa.",
+        "Publiqué una compra unica dentro de la aplicación a traves de RevenueCat, con verificacion de derechos en el servidor y una via de codigos promocionales, manteniendo los derechos independientes del SDK de la tienda.",
+        "Construí el sitio de marketing con Next.js 16 y React 19 con Tailwind CSS v4, localizado en cinco idiomas, reforzado con una CSP estricta y analítica sujeta a consentimiento, y monitorizado con Sentry.",
+        "Entregué los recursos de las mascotas en tiempo de ejecución desde un bucket de Cloudflare R2 con verificacion SHA-256, cache LRU y respaldo sin conexión, compartiendo la canalización de recursos con Reveller.",
+        "Diseñé la aplicación para no requerir cuentas de usuario, empleando tokens de sesión anónimos de modo que no se recopilan datos personales."
+      ]
+    },
+    {
+      "title": "Desarrollador de Software Principal",
+      "company": "MicroPeace.org",
+      "period": "Febrero 2026 – Mayo 2026",
+      "location": "Remoto, zona horaria CET",
+      "website": "https://www.micropeace.org",
+      "achievements": [
+        "Construida desde cero una plataforma web full-stack sin fines de lucro usando Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9 y Tailwind CSS",
+        "Arquitecturado Payload CMS como capa de contenido headless para que el personal no técnico gestione contenido, medios y traducciones sin intervención de desarrolladores",
+        "Implementados flujos de autenticación OAuth con Google y Apple como proveedores de identidad para la creación de cuentas e inicio de sesión",
+        "Desarrollado soporte multilingüe (i18n) para una audiencia internacional, con localización de contenido gestionada a través de Payload CMS",
+        "Diseñado e implementado el esquema PostgreSQL 17.9 y la capa API Node.js para datos de usuarios, relaciones de contenido e informes",
+        "Integradas múltiples APIs de terceros y Google Analytics para seguimiento de engagement y paneles de reporting",
+        "Configurado despliegue VPS auto-alojado con proxy inverso NGINX, gestión de procesos PM2 y pipeline CI/CD para el frontend Next.js y la API Node.js",
+        "Tecnologías: Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL 17.9, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
       ]
     },
     {

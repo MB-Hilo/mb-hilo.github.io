@@ -9,7 +9,7 @@ export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const languages: Language[] = ['en', 'de', 'fr', 'es'];
+  const languages: Language[] = ['en', 'de', 'fr', 'es', 'pt'];
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {

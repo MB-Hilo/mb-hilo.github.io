@@ -6,6 +6,7 @@ import { useLanguage } from '@/context/LanguageContext';
 import { getTranslations } from '@/data/translations';
 import SkillMatrix from './SkillMatrix';
 import SkillChart from './SkillChart';
+import SkillKeywords from './SkillKeywords';
 import QRCode from './QRCode';
 
 interface SidebarProps {
@@ -46,6 +47,16 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies, educ
             )}
             <span className="hidden print:inline">{personalInfo.contact.email}</span>
           </li>
+          {personalInfo.contact.phones?.map((p) => (
+            <li key={p.label}>
+              <a
+                href={`tel:${p.number.replace(/\s+/g, '')}`}
+                className="text-blue-600 hover:underline print:text-black"
+              >
+                {p.label} {p.number}
+              </a>
+            </li>
+          ))}
           {personalInfo.contact.nationality && (
             <li>{t.nationality}: {personalInfo.contact.nationality}</li>
           )}
@@ -57,6 +68,16 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies, educ
               className="text-blue-600 hover:underline print:text-black"
             >
               linkedin.com/in/markobradley
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mb-hilo"
+              target="_blank"
+              rel="noopener"
+              className="text-blue-600 hover:underline print:text-black"
+            >
+              github.com/mb-hilo
             </a>
           </li>
           {personalInfo.contact.website && (
@@ -104,23 +125,14 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies, educ
         <h2 className="sidebar-title text-lg font-semibold mb-4 text-gray-800">{t.softSkills}</h2>
         <ul className="space-y-2">
           {skills.soft.map((skill) => (
-            <li key={skill.name} className="flex items-center justify-between">
+            <li key={skill.name}>
               <span className="text-sm text-gray-700">{skill.name}</span>
-              <div className="flex space-x-1 print:hidden">
-                {[1, 2, 3, 4, 5].map((dot) => (
-                  <div
-                    key={dot}
-                    className={`w-2 h-2 rounded-full ${
-                      dot <= skill.level ? 'bg-blue-600' : 'bg-gray-300'
-                    }`}
-                  />
-                ))}
-              </div>
-              <span className="hidden print:inline text-sm">{skill.level}/5</span>
             </li>
           ))}
         </ul>
       </section>
+
+      <SkillKeywords keywords={skills.skillKeywords} />
 
         <section className="mb-8 print:hidden">
             <SkillMatrix skills={skills.detailedTechnical} />
