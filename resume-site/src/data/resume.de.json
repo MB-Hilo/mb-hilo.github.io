@@ -437,6 +437,7 @@
       "location": "Remote, EST bis CET Zeitzonen",
       "website": "https://www.pricedoff.com",
       "achievements": [
+        "Ergebnis: Produkt im Mai 2026 eingestellt, nachdem bezahlte und organische Marketingkampagnen nicht genug Zugkraft erzielten, um weitere Investitionen zu rechtfertigen.",
         "Frontend-Architektur: React + TypeScript-Anwendung mit Vite, Bootstrap UI-Komponenten, AG-Grid für komplexe Produktdatentabellen, React Router mit geschützten Routen und React Context für Authentifizierung/State-Management entwickelt",
         "Backend-Systeme: Restify-Server mit MongoDB, Passport.js-Authentifizierung mit mehreren Strategien, Express Sessions mit MongoDB-Speicher, Rate-Limiting und Sicherheits-Middleware entwickelt",
         "Microservices: Separaten Benachrichtigungsservice mit Fastify, E-Mail-Service mit SES-Integration, Watchlist-Service für Produktverfolgung und Alerts, Click-Tracking-Analytics für Affiliate-Links erstellt",
@@ -444,8 +445,7 @@
         "Produkt-Scraper-System: Puppeteer/Playwright-basiertes Scraping mit Chrome Headless, AWS Lambda-Integration für Cloud-Scraping, VPN-Unterstützung für geo-beschränkte Domains, Bulk-Write-Operationen für effiziente Datenaktualisierungen entwickelt",
         "DevOps & Testing: Playwright E2E-Test-Suite, TypeScript-Kompilierung mit Strict Mode, ESLint für Code-Qualität, PM2-Ecosystem-Konfiguration für Produktions-Deployment implementiert",
         "Business-Features: Admin-Panel für Affiliate- und Benutzerverwaltung, Preisverfolgungsalgorithmen mit Alerts, SEO-Landing-Pages mit KI-unterstützter Inhaltsgenerierung, Multi-Domain-Unterstützung (US, CA, EU-Märkte) entwickelt",
-        "Entwicklungs-Workflow: Frontend-Proxy-Routen, Umgebungskonfiguration mit .env-Management, Datenbank-Utilities für Sync/Cleanup/Analyse, interaktiven Skript-Runner für Datenbankoperationen etabliert",
-        "Ergebnis: Produkt im Mai 2026 eingestellt, nachdem bezahlte und organische Marketingkampagnen nicht genug Zugkraft erzielten, um weitere Investitionen zu rechtfertigen."
+        "Entwicklungs-Workflow: Frontend-Proxy-Routen, Umgebungskonfiguration mit .env-Management, Datenbank-Utilities für Sync/Cleanup/Analyse, interaktiven Skript-Runner für Datenbankoperationen etabliert"
       ]
     },
     {

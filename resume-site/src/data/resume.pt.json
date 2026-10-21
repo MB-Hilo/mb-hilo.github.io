@@ -437,6 +437,7 @@
       "location": "Teletrabalho, fusos horários EST a CET",
       "website": "https://www.pricedoff.com",
       "achievements": [
+        "Resultado: Produto descontinuado em maio de 2026 depois de as campanhas de marketing pagas e orgânicas não terem gerado tração suficiente para justificar mais investimento.",
         "Arquitetura de Frontend: Aplicação React + TypeScript com Vite, componentes de UI Bootstrap, AG-Grid para tabelas complexas de dados de produtos, React Router com rotas protegidas e React Context para autenticação e gestão de estado",
         "Sistemas de Backend: Servidor Restify com MongoDB, autenticação Passport.js com múltiplas estratégias, sessões Express com armazenamento em MongoDB, limitação de taxa e middleware de segurança",
         "Microsserviços: Serviço de notificações autónomo com Fastify, serviço de email com integração SES, serviço de watchlist para monitorização de produtos e alertas, analítica de cliques para links de afiliação",
@@ -444,8 +445,7 @@
         "Sistema de Scraping de Produtos: Scraping com Puppeteer/Playwright e Chrome headless, integração com AWS Lambda para scraping na cloud, suporte de VPN para domínios com restrições geográficas, operações bulk write para atualizações eficientes",
         "DevOps e Testes: Suite de testes E2E em Playwright, compilação TypeScript em modo estrito, ESLint para qualidade de código, configuração do ecossistema PM2 para implementação em produção",
         "Funcionalidades de Negócio: Painel de administração para gestão de afiliados e utilizadores, algoritmos de monitorização de preços com alertas, páginas de destino otimizadas para SEO com geração de conteúdo assistida por IA, suporte multi-domínio (mercados EUA, Canadá e UE)",
-        "Fluxo de Desenvolvimento: Rotas de proxy no frontend, configuração de ambientes com gestão de .env, utilitários de base de dados para sincronização/limpeza/análise, executor interativo de scripts para operações de base de dados",
-        "Resultado: Produto descontinuado em maio de 2026 depois de as campanhas de marketing pagas e orgânicas não terem gerado tração suficiente para justificar mais investimento."
+        "Fluxo de Desenvolvimento: Rotas de proxy no frontend, configuração de ambientes com gestão de .env, utilitários de base de dados para sincronização/limpeza/análise, executor interativo de scripts para operações de base de dados"
       ]
     },
     {

@@ -437,6 +437,7 @@
       "location": "Remote, EST to CET timezones",
       "website": "https://www.pricedoff.com",
       "achievements": [
+        "Outcome: Retired the product in May 2026 after paid and organic marketing campaigns failed to gain enough traction to justify continued investment.",
         "Frontend Architecture: Built React + TypeScript application with Vite, Bootstrap UI components, AG-Grid for complex product data tables, React Router with protected routes, and React Context for authentication/state management",
         "Backend Systems: Developed Restify server with MongoDB, Passport.js authentication with multiple strategies, Express sessions with MongoDB storage, rate limiting and security middleware",
         "Microservices: Created separate notification service with Fastify, email service with SES integration, watchlist service for product tracking and alerts, click tracking analytics for affiliate links",
@@ -444,8 +445,7 @@
         "Product Scraper System: Built Puppeteer/Playwright-based scraping with Chrome headless, AWS Lambda integration for cloud scraping, VPN support for geo-restricted domains, bulk write operations for efficient data updates",
         "DevOps & Testing: Implemented Playwright E2E testing suite, TypeScript compilation with strict mode, ESLint for code quality, PM2 ecosystem configuration for production deployment",
         "Business Features: Developed admin panel for affiliate and user management, price tracking algorithms with alerts, SEO landing pages with AI-assisted content generation, multi-domain support (US, CA, EU markets)",
-        "Development Workflow: Established frontend proxy routes, environment configuration with .env management, database utilities for sync/cleanup/analysis, interactive script runner for database operations",
-        "Outcome: Retired the product in May 2026 after paid and organic marketing campaigns failed to gain enough traction to justify continued investment."
+        "Development Workflow: Established frontend proxy routes, environment configuration with .env management, database utilities for sync/cleanup/analysis, interactive script runner for database operations"
       ]
     },
     {

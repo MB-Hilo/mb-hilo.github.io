@@ -437,6 +437,7 @@
       "location": "Remoto, Zonas horarias EST a CET",
       "website": "https://www.pricedoff.com",
       "achievements": [
+        "Resultado: Producto retirado en mayo de 2026 tras no conseguir suficiente tracción con campañas de marketing de pago y orgánicas como para justificar seguir invirtiendo.",
         "Arquitectura Frontend: Aplicación React + TypeScript construida con Vite, componentes UI Bootstrap, AG-Grid para tablas de datos de productos complejas, React Router con rutas protegidas y React Context para autenticación/gestión de estado",
         "Sistemas Backend: Servidor Restify desarrollado con MongoDB, autenticación Passport.js con múltiples estrategias, sesiones Express con almacenamiento MongoDB, middleware de rate limiting y seguridad",
         "Microservicios: Servicio de notificaciones separado creado con Fastify, servicio de email con integración SES, servicio watchlist para seguimiento de productos y alertas, analytics de tracking de clics para enlaces de afiliados",
@@ -444,8 +445,7 @@
         "Sistema de Scraping de Productos: Scraping basado en Puppeteer/Playwright construido con Chrome headless, integración AWS Lambda para scraping en la nube, soporte VPN para dominios con restricciones geográficas, operaciones bulk write para actualizaciones de datos eficientes",
         "DevOps & Testing: Suite de tests Playwright E2E implementada, compilación TypeScript con modo estricto, ESLint para calidad de código, configuración del ecosistema PM2 para despliegue en producción",
         "Funcionalidades de Negocio: Panel de administración desarrollado para gestión de afiliados y usuarios, algoritmos de seguimiento de precios con alertas, páginas de destino SEO con generación de contenido asistida por IA, soporte multi-dominio (mercados US, CA, EU)",
-        "Workflow de Desarrollo: Rutas proxy frontend establecidas, configuración de entorno con gestión .env, utilidades de base de datos para sync/limpieza/análisis, ejecutor de scripts interactivo para operaciones de base de datos",
-        "Resultado: Producto retirado en mayo de 2026 tras no conseguir suficiente tracción con campañas de marketing de pago y orgánicas como para justificar seguir invirtiendo."
+        "Workflow de Desarrollo: Rutas proxy frontend establecidas, configuración de entorno con gestión .env, utilidades de base de datos para sync/limpieza/análisis, ejecutor de scripts interactivo para operaciones de base de datos"
       ]
     },
     {

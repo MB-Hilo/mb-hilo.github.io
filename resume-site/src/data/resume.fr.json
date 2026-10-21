@@ -437,6 +437,7 @@
       "location": "Télétravail, Fuseaux horaires EST à CET",
       "website": "https://www.pricedoff.com",
       "achievements": [
+        "Résultat : Produit retiré en mai 2026, les campagnes marketing payantes et organiques n'ayant pas généré assez de traction pour justifier la poursuite de l'investissement.",
         "Architecture Frontend : Application React + TypeScript développée avec Vite, composants UI Bootstrap, AG-Grid pour tableaux de données produits complexes, React Router avec routes protégées et React Context pour authentification/gestion d'état",
         "Systèmes Backend : Serveur Restify développé avec MongoDB, authentification Passport.js avec stratégies multiples, sessions Express avec stockage MongoDB, middleware de rate limiting et sécurité",
         "Microservices : Service de notifications séparé créé avec Fastify, service email avec intégration SES, service watchlist pour suivi produits et alertes, analytics de tracking de clics pour liens affiliés",
@@ -444,8 +445,7 @@
         "Système de Scraping Produits : Scraping basé Puppeteer/Playwright développé avec Chrome headless, intégration AWS Lambda pour scraping cloud, support VPN pour domaines géo-restreints, opérations bulk write pour mises à jour efficaces",
         "DevOps & Testing : Suite de tests Playwright E2E implémentée, compilation TypeScript en mode strict, ESLint pour qualité du code, configuration écosystème PM2 pour déploiement production",
         "Fonctionnalités Business : Panel admin développé pour gestion affiliés et utilisateurs, algorithmes de suivi de prix avec alertes, pages d'atterrissage SEO avec génération de contenu assistée par IA, support multi-domaines (marchés US, CA, EU)",
-        "Workflow de Développement : Routes proxy frontend établies, configuration d'environnement avec gestion .env, utilitaires base de données pour sync/nettoyage/analyse, runner de scripts interactif pour opérations base de données",
-        "Résultat : Produit retiré en mai 2026, les campagnes marketing payantes et organiques n'ayant pas généré assez de traction pour justifier la poursuite de l'investissement."
+        "Workflow de Développement : Routes proxy frontend établies, configuration d'environnement avec gestion .env, utilitaires base de données pour sync/nettoyage/analyse, runner de scripts interactif pour opérations base de données"
       ]
     },
     {
