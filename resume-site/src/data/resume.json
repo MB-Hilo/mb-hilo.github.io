@@ -372,6 +372,26 @@
   ],
   "experience": [
     {
+      "title": "Founder & Full-Stack Developer",
+      "company": "Reveller",
+      "period": "April 2026 – Present",
+      "location": "Remote, CET timezone",
+      "website": "https://www.reveller.app",
+      "achievements": [
+        "Launched Reveller, a screen-time recovery app pairing habit tracking with journaling, goals, challenges and peer groups; shipped to production on Google Play (version 1.0.0+26) across 541 commits.",
+        "Built the full stack end to end: a Flutter client (Riverpod, go_router, Freezed, Hive) backed by a self-written Dart Shelf REST API over PostgreSQL with 21 versioned schema migrations.",
+        "Implemented authentication and security in-house - JWT access/refresh tokens with bcrypt password hashing, Google Sign-In and Sign in with Apple, and secure on-device token storage.",
+        "Developed the native Android layer in Kotlin - an Accessibility Service and foreground service for near-instant app blocking with a bypass-PIN system, plus usage-stats collection and app-category classification feeding a screen-time dashboard.",
+        "Integrated the Anthropic Claude API server-side to generate CBT and metacognitive therapy exercises, daily affirmations and journal prompts, with structured JSON output and a safe fallback when the API is unavailable.",
+        "Wrote a custom GLSL chroma-key shader with a companion browser-based tuning tool, enabling per-clip keying of mindful nature video overlays.",
+        "Monetized through RevenueCat (purchases_flutter) with server-side entitlement reconciliation treated as the source of truth over the store SDK.",
+        "Authored a shared reveller_asset_repository package delivering SHA-256-verified, LRU-cached assets from Cloudflare R2, reused across both Reveller and Poekito.",
+        "Built social accountability features - groups, seasonal challenges and leaderboards with server-side scoring - alongside journaling, mood tracking and goal-tagging of reclaimed time.",
+        "AOT-compiled the Dart API into a minimal scratch-based Docker image and deployed it with Postgres via Coolify, with GitHub Actions running analyze/test on every push.",
+        "Shipped a token-gated admin console for QA and support, with every write recorded to an audit log, plus in-app account deletion for Play Store compliance."
+      ]
+    },
+    {
       "title": "Technical Co‑founder & Lead Developer",
       "company": "Chatelope",
       "period": "September 2025 – Present",
@@ -390,26 +410,6 @@
         "Security hardened the codebase: OAuth-gated API routes, path traversal protection on attachments, SQL LIKE pattern escaping, and N+1 query elimination",
         "Configured Docker + Coolify (Hetzner VPS) deployment with automated CI/CD, persistent SQLite volumes, and Let's Encrypt SSL",
         "Technologies: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Founder & Full-Stack Developer",
-      "company": "Reveller",
-      "period": "April 2026 – Present",
-      "location": "Remote, CET timezone",
-      "website": "https://www.reveller.app",
-      "achievements": [
-        "Launched Reveller, a screen-time recovery app pairing habit tracking with journaling, goals, challenges and peer groups; shipped to production on Google Play (version 1.0.0+26) across 541 commits.",
-        "Built the full stack end to end: a Flutter client (Riverpod, go_router, Freezed, Hive) backed by a self-written Dart Shelf REST API over PostgreSQL with 21 versioned schema migrations.",
-        "Implemented authentication and security in-house - JWT access/refresh tokens with bcrypt password hashing, Google Sign-In and Sign in with Apple, and secure on-device token storage.",
-        "Developed the native Android layer in Kotlin - an Accessibility Service and foreground service for near-instant app blocking with a bypass-PIN system, plus usage-stats collection and app-category classification feeding a screen-time dashboard.",
-        "Integrated the Anthropic Claude API server-side to generate CBT and metacognitive therapy exercises, daily affirmations and journal prompts, with structured JSON output and a safe fallback when the API is unavailable.",
-        "Wrote a custom GLSL chroma-key shader with a companion browser-based tuning tool, enabling per-clip keying of mindful nature video overlays.",
-        "Monetized through RevenueCat (purchases_flutter) with server-side entitlement reconciliation treated as the source of truth over the store SDK.",
-        "Authored a shared reveller_asset_repository package delivering SHA-256-verified, LRU-cached assets from Cloudflare R2, reused across both Reveller and Poekito.",
-        "Built social accountability features - groups, seasonal challenges and leaderboards with server-side scoring - alongside journaling, mood tracking and goal-tagging of reclaimed time.",
-        "AOT-compiled the Dart API into a minimal scratch-based Docker image and deployed it with Postgres via Coolify, with GitHub Actions running analyze/test on every push.",
-        "Shipped a token-gated admin console for QA and support, with every write recorded to an audit log, plus in-app account deletion for Play Store compliance."
       ]
     },
     {

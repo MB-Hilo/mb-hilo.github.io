@@ -372,6 +372,26 @@
   ],
   "experience": [
     {
+      "title": "Fondateur et Développeur Full-Stack",
+      "company": "Reveller",
+      "period": "Avril 2026 – Aujourd'hui",
+      "location": "Télétravail, fuseau horaire CET",
+      "website": "https://www.reveller.app",
+      "achievements": [
+        "Lancement de Reveller, une application de reduction du temps d'écran associant suivi des habitudes, journal, objectifs, défis et groupes d'entraide ; mise en production sur Google Play (version 1.0.0+26) au fil de 541 commits.",
+        "Développement de l'ensemble de la stack : un client Flutter (Riverpod, go_router, Freezed, Hive) adossé a une API REST Dart Shelf écrite sur mesure et a PostgreSQL avec 21 migrations de schéma versionnées.",
+        "Implementation interne de l'authentification et de la sécurité : jetons JWT d'accès et de rafraîchissement avec hachage bcrypt, Google Sign-In et Sign in with Apple, et stockage sécurisé des jetons sur l'appareil.",
+        "Développement de la couche native Android en Kotlin : un Accessibility Service et un service au premier plan pour un blocage d'applications quasi instantané avec code PIN de contournement, ainsi que la collecte des statistiques d'usage et la classification des applications alimentant un tableau de bord.",
+        "Intégration de l'API Anthropic Claude côté serveur pour générer des exercices de thérapie cognitivo-comportementale et métacognitive, des affirmations quotidiennes et des amorces de journal, avec sortie JSON structurée et repli en cas d'indisponibilité.",
+        "Écriture d'un shader GLSL de chroma key sur mesure accompagné d'un outil de réglage dans le navigateur, permettant un keying propre a chaque clip pour les vidéos de nature superposées.",
+        "Monetisation via RevenueCat (purchases_flutter) avec réconciliation des droits côté serveur faisant autorité par rapport au SDK du store.",
+        "Création du paquet partagé reveller_asset_repository, qui distribue des ressources vérifiées en SHA-256 et mises en cache LRU depuis Cloudflare R2, réutilisé par Reveller et Poekito.",
+        "Mise en place de fonctionnalités sociales : groupes, défis saisonniers et classements avec calcul des scores côté serveur, en complément du journal, du suivi de l'humeur et de l'affectation du temps regagné a des objectifs.",
+        "Compilation AOT de l'API Dart dans une image Docker minimale basée sur scratch, déployée avec Postgres via Coolify, GitHub Actions exécutant analyse et tests a chaque push.",
+        "Livraison d'une console d'administration protégée par jeton pour la QA et le support, chaque ecriture etant journalisée, ainsi que la suppression de compte dans l'application pour la conformité Google Play."
+      ]
+    },
+    {
       "title": "Co-fondateur Technique & Développeur Principal",
       "company": "Chatelope",
       "period": "Septembre 2025 – Présent",
@@ -390,26 +410,6 @@
         "Durci la sécurité du code : routes API protégées par OAuth, protection contre la traversée de chemins, échappement SQL LIKE et élimination des requêtes N+1",
         "Configuré le déploiement Docker + Coolify (Hetzner VPS) avec CI/CD automatisé, volumes SQLite persistants et SSL Let's Encrypt",
         "Technologies : Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Fondateur et Développeur Full-Stack",
-      "company": "Reveller",
-      "period": "Avril 2026 – Aujourd'hui",
-      "location": "Télétravail, fuseau horaire CET",
-      "website": "https://www.reveller.app",
-      "achievements": [
-        "Lancement de Reveller, une application de reduction du temps d'écran associant suivi des habitudes, journal, objectifs, défis et groupes d'entraide ; mise en production sur Google Play (version 1.0.0+26) au fil de 541 commits.",
-        "Développement de l'ensemble de la stack : un client Flutter (Riverpod, go_router, Freezed, Hive) adossé a une API REST Dart Shelf écrite sur mesure et a PostgreSQL avec 21 migrations de schéma versionnées.",
-        "Implementation interne de l'authentification et de la sécurité : jetons JWT d'accès et de rafraîchissement avec hachage bcrypt, Google Sign-In et Sign in with Apple, et stockage sécurisé des jetons sur l'appareil.",
-        "Développement de la couche native Android en Kotlin : un Accessibility Service et un service au premier plan pour un blocage d'applications quasi instantané avec code PIN de contournement, ainsi que la collecte des statistiques d'usage et la classification des applications alimentant un tableau de bord.",
-        "Intégration de l'API Anthropic Claude côté serveur pour générer des exercices de thérapie cognitivo-comportementale et métacognitive, des affirmations quotidiennes et des amorces de journal, avec sortie JSON structurée et repli en cas d'indisponibilité.",
-        "Écriture d'un shader GLSL de chroma key sur mesure accompagné d'un outil de réglage dans le navigateur, permettant un keying propre a chaque clip pour les vidéos de nature superposées.",
-        "Monetisation via RevenueCat (purchases_flutter) avec réconciliation des droits côté serveur faisant autorité par rapport au SDK du store.",
-        "Création du paquet partagé reveller_asset_repository, qui distribue des ressources vérifiées en SHA-256 et mises en cache LRU depuis Cloudflare R2, réutilisé par Reveller et Poekito.",
-        "Mise en place de fonctionnalités sociales : groupes, défis saisonniers et classements avec calcul des scores côté serveur, en complément du journal, du suivi de l'humeur et de l'affectation du temps regagné a des objectifs.",
-        "Compilation AOT de l'API Dart dans une image Docker minimale basée sur scratch, déployée avec Postgres via Coolify, GitHub Actions exécutant analyse et tests a chaque push.",
-        "Livraison d'une console d'administration protégée par jeton pour la QA et le support, chaque ecriture etant journalisée, ainsi que la suppression de compte dans l'application pour la conformité Google Play."
       ]
     },
     {

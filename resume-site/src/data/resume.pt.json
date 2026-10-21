@@ -372,6 +372,26 @@
   ],
   "experience": [
     {
+      "title": "Fundador e Programador Full-Stack",
+      "company": "Reveller",
+      "period": "Abril 2026 – Atualidade",
+      "location": "Teletrabalho, fuso horário CET",
+      "website": "https://www.reveller.app",
+      "achievements": [
+        "Lancei o Reveller, uma aplicação de recuperação do tempo de ecrã que combina registo de hábitos com diário, objetivos, desafios e grupos de apoio; publicada em produção no Google Play (versão 1.0.0+26) ao longo de 541 commits.",
+        "Desenvolvi toda a stack de ponta a ponta: um cliente Flutter (Riverpod, go_router, Freezed, Hive) suportado por uma API REST propria em Dart Shelf sobre PostgreSQL com 21 migrações de esquema versionadas.",
+        "Implementei a autenticação e a segurança internamente: tokens JWT de acesso e renovação com hashing bcrypt, Google Sign-In e Sign in with Apple, e armazenamento seguro de tokens no dispositivo.",
+        "Desenvolvi a camada nativa Android em Kotlin: um Accessibility Service e um serviço em primeiro plano para bloqueio quase instantaneo de aplicações com PIN de exceção, além da recolha de estatísticas de utilização e classificação de aplicações para o painel de tempo de ecrã.",
+        "Integrei a API Anthropic Claude no servidor para gerar exercícios de terapia cognitivo-comportamental e metacognitiva, afirmações diarias e sugestões de diário, com saída JSON estruturada e alternativa segura em caso de falha da API.",
+        "Escrevi um shader GLSL de chroma key próprio com uma ferramenta de afinacao no browser, permitindo keying específico por clipe dos vídeos de natureza sobrepostos.",
+        "Monetização através do RevenueCat (purchases_flutter) com reconciliação de direitos no servidor como fonte de verdade acima do SDK da loja.",
+        "Criei o pacote partilhado reveller_asset_repository, que entrega recursos verificados por SHA-256 e em cache LRU a partir do Cloudflare R2, reutilizado pelo Reveller e pelo Poekito.",
+        "Construí funcionalidades de responsabilização social: grupos, desafios sazonais e classificações com pontuação no servidor, a par de diário, registo de humor e associação do tempo recuperado a objetivos.",
+        "Compilei a API Dart em modo AOT numa imagem Docker mínima baseada em scratch e implementei-a com Postgres via Coolify, com GitHub Actions a correr análise e testes em cada push.",
+        "Disponibilizei uma consola de administração protegida por token para QA e suporte, com registo de auditoria de cada escrita, e eliminação de conta na aplicação para conformidade com a Google Play."
+      ]
+    },
+    {
       "title": "Cofundador Técnico e Programador Principal",
       "company": "Chatelope",
       "period": "Setembro 2025 – Presente",
@@ -390,26 +410,6 @@
         "Reforço da segurança do código: rotas de API protegidas por OAuth, proteção contra path traversal em anexos, escape de padrões SQL LIKE e eliminação de consultas N+1",
         "Configuração de implementação com Docker + Coolify (VPS Hetzner) com CI/CD automatizado, volumes SQLite persistentes e SSL Let's Encrypt",
         "Tecnologias: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Fundador e Programador Full-Stack",
-      "company": "Reveller",
-      "period": "Abril 2026 – Atualidade",
-      "location": "Teletrabalho, fuso horário CET",
-      "website": "https://www.reveller.app",
-      "achievements": [
-        "Lancei o Reveller, uma aplicação de recuperação do tempo de ecrã que combina registo de hábitos com diário, objetivos, desafios e grupos de apoio; publicada em produção no Google Play (versão 1.0.0+26) ao longo de 541 commits.",
-        "Desenvolvi toda a stack de ponta a ponta: um cliente Flutter (Riverpod, go_router, Freezed, Hive) suportado por uma API REST propria em Dart Shelf sobre PostgreSQL com 21 migrações de esquema versionadas.",
-        "Implementei a autenticação e a segurança internamente: tokens JWT de acesso e renovação com hashing bcrypt, Google Sign-In e Sign in with Apple, e armazenamento seguro de tokens no dispositivo.",
-        "Desenvolvi a camada nativa Android em Kotlin: um Accessibility Service e um serviço em primeiro plano para bloqueio quase instantaneo de aplicações com PIN de exceção, além da recolha de estatísticas de utilização e classificação de aplicações para o painel de tempo de ecrã.",
-        "Integrei a API Anthropic Claude no servidor para gerar exercícios de terapia cognitivo-comportamental e metacognitiva, afirmações diarias e sugestões de diário, com saída JSON estruturada e alternativa segura em caso de falha da API.",
-        "Escrevi um shader GLSL de chroma key próprio com uma ferramenta de afinacao no browser, permitindo keying específico por clipe dos vídeos de natureza sobrepostos.",
-        "Monetização através do RevenueCat (purchases_flutter) com reconciliação de direitos no servidor como fonte de verdade acima do SDK da loja.",
-        "Criei o pacote partilhado reveller_asset_repository, que entrega recursos verificados por SHA-256 e em cache LRU a partir do Cloudflare R2, reutilizado pelo Reveller e pelo Poekito.",
-        "Construí funcionalidades de responsabilização social: grupos, desafios sazonais e classificações com pontuação no servidor, a par de diário, registo de humor e associação do tempo recuperado a objetivos.",
-        "Compilei a API Dart em modo AOT numa imagem Docker mínima baseada em scratch e implementei-a com Postgres via Coolify, com GitHub Actions a correr análise e testes em cada push.",
-        "Disponibilizei uma consola de administração protegida por token para QA e suporte, com registo de auditoria de cada escrita, e eliminação de conta na aplicação para conformidade com a Google Play."
       ]
     },
     {
