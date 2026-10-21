@@ -433,7 +433,7 @@
     {
       "title": "Co-fundador Técnico",
       "company": "PricedOff.com",
-      "period": "Junio 2024 – Presente",
+      "period": "Junio 2024 – Mayo 2026",
       "location": "Remoto, Zonas horarias EST a CET",
       "website": "https://www.pricedoff.com",
       "achievements": [
@@ -444,7 +444,8 @@
         "Sistema de Scraping de Productos: Scraping basado en Puppeteer/Playwright construido con Chrome headless, integración AWS Lambda para scraping en la nube, soporte VPN para dominios con restricciones geográficas, operaciones bulk write para actualizaciones de datos eficientes",
         "DevOps & Testing: Suite de tests Playwright E2E implementada, compilación TypeScript con modo estricto, ESLint para calidad de código, configuración del ecosistema PM2 para despliegue en producción",
         "Funcionalidades de Negocio: Panel de administración desarrollado para gestión de afiliados y usuarios, algoritmos de seguimiento de precios con alertas, páginas de destino SEO con generación de contenido asistida por IA, soporte multi-dominio (mercados US, CA, EU)",
-        "Workflow de Desarrollo: Rutas proxy frontend establecidas, configuración de entorno con gestión .env, utilidades de base de datos para sync/limpieza/análisis, ejecutor de scripts interactivo para operaciones de base de datos"
+        "Workflow de Desarrollo: Rutas proxy frontend establecidas, configuración de entorno con gestión .env, utilidades de base de datos para sync/limpieza/análisis, ejecutor de scripts interactivo para operaciones de base de datos",
+        "Resultado: Producto retirado en mayo de 2026 tras no conseguir suficiente tracción con campañas de marketing de pago y orgánicas como para justificar seguir invirtiendo."
       ]
     },
     {

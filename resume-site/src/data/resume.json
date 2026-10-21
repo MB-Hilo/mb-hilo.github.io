@@ -433,7 +433,7 @@
     {
       "title": "Technical Co‑founder",
       "company": "PricedOff.com",
-      "period": "June 2024 – Present",
+      "period": "June 2024 – May 2026",
       "location": "Remote, EST to CET timezones",
       "website": "https://www.pricedoff.com",
       "achievements": [
@@ -444,7 +444,8 @@
         "Product Scraper System: Built Puppeteer/Playwright-based scraping with Chrome headless, AWS Lambda integration for cloud scraping, VPN support for geo-restricted domains, bulk write operations for efficient data updates",
         "DevOps & Testing: Implemented Playwright E2E testing suite, TypeScript compilation with strict mode, ESLint for code quality, PM2 ecosystem configuration for production deployment",
         "Business Features: Developed admin panel for affiliate and user management, price tracking algorithms with alerts, SEO landing pages with AI-assisted content generation, multi-domain support (US, CA, EU markets)",
-        "Development Workflow: Established frontend proxy routes, environment configuration with .env management, database utilities for sync/cleanup/analysis, interactive script runner for database operations"
+        "Development Workflow: Established frontend proxy routes, environment configuration with .env management, database utilities for sync/cleanup/analysis, interactive script runner for database operations",
+        "Outcome: Retired the product in May 2026 after paid and organic marketing campaigns failed to gain enough traction to justify continued investment."
       ]
     },
     {
