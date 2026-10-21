@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Experience } from '@/types/resume';
 import { useLanguage } from '@/context/LanguageContext';
 import { getTranslations } from '@/data/translations';
+import LinkifiedText from './LinkifiedText';
 
 interface ExpandableExperienceProps {
   job: Experience;
@@ -69,13 +70,13 @@ export default function ExpandableExperience({ job, index }: ExpandableExperienc
       <ul className="space-y-2 text-gray-700 print:text-sm">
         {coreAchievements.map((achievement, achievementIndex) => (
           <li key={achievementIndex} className="leading-relaxed">
-            • {achievement}
+            • <LinkifiedText text={achievement} />
           </li>
         ))}
 
         {isExpanded && additionalAchievements.map((achievement, achievementIndex) => (
           <li key={`additional-${achievementIndex}`} className="leading-relaxed">
-            • {achievement}
+            • <LinkifiedText text={achievement} />
           </li>
         ))}
       </ul>

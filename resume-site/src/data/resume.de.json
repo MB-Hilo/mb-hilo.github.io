@@ -379,6 +379,7 @@
       "website": "https://www.reveller.app",
       "achievements": [
         "Reveller gestartet, eine App zur Reduzierung der Bildschirmzeit, die Gewohnheitstracking mit Journaling, Zielen, Challenges und Peer-Gruppen verbindet; in über 541 Commits produktiv auf Google Play veröffentlicht (Version 1.0.0+26).",
+        "Daraus die Schwester-App Poekito (https://poekito.com) abgeleitet: ein Android-Begleiter, der ein animiertes Haustier über anderen Apps einblendet, um einen bewussteren Umgang mit der Bildschirmzeit zu fördern; auf demselben Flutter/Kotlin-Stack und der gemeinsamen Asset-Pipeline aufgebaut und mit 173 Commits bei Google Play veröffentlicht.",
         "Den gesamten Stack eigenständig entwickelt: einen Flutter-Client (Riverpod, go_router, Freezed, Hive) mit einer selbst geschriebenen Dart-Shelf-REST-API auf PostgreSQL mit 21 versionierten Schema-Migrationen.",
         "Authentifizierung und Sicherheit selbst implementiert - JWT-Access-/Refresh-Tokens mit bcrypt-Passwort-Hashing, Google Sign-In und Sign in with Apple sowie sichere Token-Speicherung auf dem Gerät.",
         "Die native Android-Schicht in Kotlin entwickelt - ein Accessibility Service und ein Foreground Service für nahezu sofortiges App-Blocking mit Bypass-PIN, dazu Nutzungsstatistiken und App-Kategorisierung als Basis eines Bildschirmzeit-Dashboards.",
@@ -410,24 +411,6 @@
         "Codebase sicherheitsgehärtet: OAuth-gesicherte API-Routen, Path-Traversal-Schutz bei Anhängen, SQL LIKE-Pattern-Escaping und N+1-Query-Eliminierung",
         "Docker + Coolify (Hetzner VPS) Deployment mit automatisierter CI/CD, persistenten SQLite-Volumes und Let's Encrypt SSL konfiguriert",
         "Technologien: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Gründer & Mobile-Entwickler",
-      "company": "Poekito",
-      "period": "Mai 2026 – Heute",
-      "location": "Remote, MEZ Zeitzone",
-      "website": "https://poekito.com",
-      "achievements": [
-        "Poekito gestartet, eine Android-App, die ein animiertes Haustier über anderen Apps einblendet, um einen bewussteren Umgang mit der Bildschirmzeit zu foerdern; in 173 Commits produktiv auf Google Play veröffentlicht (Version 1.0.0+13).",
-        "Einen nativen Kotlin-Foreground-Service entwickelt, der animierte Haustier-Sprites via SYSTEM_ALERT_WINDOW über anderen Anwendungen darstellt und über einen MethodChannel aus Flutter gesteuert wird.",
-        "Android-Nutzungsstatistiken und WorkManager-basierte Hintergrundüberwachung eingesetzt, um die aktive App zu erkennen und Overlays nur bei selbst gewählten Apps auszulösen.",
-        "Bildschirmfüllende Ambient-Effekte - wachsendes Gras, steigendes Wasser, gefrierendes und springendes Glas - als eigene native Kotlin-Renderer umgesetzt.",
-        "Einen GLSL-Chroma-Key-Shader geschrieben, der in Dart und Kotlin identisch gespiegelt ist, sodass Natur-Video-Overlays in der App und im nativen Overlay gleich aussehen.",
-        "Einen einmaligen In-App-Kauf über RevenueCat umgesetzt, mit serverseitiger Entitlement-Pruefung und Gutschein-/Einloesecode-Pfad, unabhaengig vom Store-SDK.",
-        "Die Marketing-Website mit Next.js 16 und React 19 sowie Tailwind CSS v4 gebaut, in fünf Sprachen lokalisiert, mit strikter CSP und einwilligungsbasiertem Tracking abgesichert und mit Sentry überwacht.",
-        "Begleit-Assets zur Laufzeit aus einem Cloudflare-R2-Bucket ausgeliefert - mit SHA-256-Pruefung, LRU-Caching und Offline-Fallback - und die Asset-Pipeline gemeinsam mit Reveller genutzt.",
-        "Die App bewusst ohne Benutzerkonten konzipiert und mit anonymen Session-Tokens umgesetzt, sodass keine personenbezogenen Daten erhoben werden."
       ]
     },
     {

@@ -379,6 +379,7 @@
       "website": "https://www.reveller.app",
       "achievements": [
         "Lancé Reveller, una aplicación de recuperación del tiempo de pantalla que combina seguimiento de hábitos con diario, objetivos, retos y grupos de apoyo; publicada en producción en Google Play (versión 1.0.0+26) a lo largo de 541 commits.",
+        "Derivé una aplicación hermana, Poekito (https://poekito.com): un compañero Android que superpone una mascota animada sobre otras aplicaciones para fomentar hábitos conscientes de tiempo de pantalla, construido sobre el mismo stack Flutter/Kotlin y la misma pipeline de recursos; publicado en Google Play tras 173 commits.",
         "Desarrollé el stack completo de principio a fin: un cliente Flutter (Riverpod, go_router, Freezed, Hive) respaldado por una API REST propia en Dart Shelf sobre PostgreSQL con 21 migraciones de esquema versionadas.",
         "Implementé la autenticacion y la seguridad internamente: tokens JWT de acceso y refresco con hash de contraseñas bcrypt, Google Sign-In y Sign in with Apple, y almacenamiento seguro de tokens en el dispositivo.",
         "Desarrollé la capa nativa de Android en Kotlin: un Accessibility Service y un servicio en primer plano para bloqueo casi instantáneo de aplicaciones con PIN de excepción, ademas de recopilacion de estadísticas de uso y clasificación de aplicaciones para el panel de tiempo de pantalla.",
@@ -410,24 +411,6 @@
         "Código endurecido en seguridad: rutas API protegidas por OAuth, protección contra path traversal, escape de patrones SQL LIKE y eliminación de consultas N+1",
         "Configurado despliegue Docker + Coolify (Hetzner VPS) con CI/CD automatizado, volúmenes SQLite persistentes y SSL Let's Encrypt",
         "Tecnologías: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Fundador y Desarrollador Móvil",
-      "company": "Poekito",
-      "period": "Mayo 2026 – Actualidad",
-      "location": "Remoto, zona horaria CET",
-      "website": "https://poekito.com",
-      "achievements": [
-        "Lancé Poekito, una aplicación Android que superpone una mascota animada sobre otras aplicaciones para fomentar hábitos conscientes de tiempo de pantalla; publicada en producción en Google Play (versión 1.0.0+13) a lo largo de 173 commits.",
-        "Desarrollé un servicio en primer plano nativo en Kotlin que dibuja sprites animados de la mascota sobre otras aplicaciones mediante SYSTEM_ALERT_WINDOW, controlado desde Flutter a traves de un MethodChannel.",
-        "Utilicé las APIs de estadísticas de uso de Android y monitorización en segundo plano con WorkManager para detectar la aplicación en primer plano y activar las superposiciones solo en las aplicaciones elegidas por el usuario.",
-        "Implementé efectos ambientales a pantalla completa - hierba que crece, agua que sube, cristal que se escarcha y se agrieta - como renderizadores nativos propios en Kotlin.",
-        "Escribí un shader GLSL de chroma key replicado en Dart y en Kotlin para que los vídeos de naturaleza superpuestos se vean igual dentro de la app y en la superposicion nativa.",
-        "Publiqué una compra unica dentro de la aplicación a traves de RevenueCat, con verificacion de derechos en el servidor y una via de codigos promocionales, manteniendo los derechos independientes del SDK de la tienda.",
-        "Construí el sitio de marketing con Next.js 16 y React 19 con Tailwind CSS v4, localizado en cinco idiomas, reforzado con una CSP estricta y analítica sujeta a consentimiento, y monitorizado con Sentry.",
-        "Entregué los recursos de las mascotas en tiempo de ejecución desde un bucket de Cloudflare R2 con verificacion SHA-256, cache LRU y respaldo sin conexión, compartiendo la canalización de recursos con Reveller.",
-        "Diseñé la aplicación para no requerir cuentas de usuario, empleando tokens de sesión anónimos de modo que no se recopilan datos personales."
       ]
     },
     {

@@ -3,6 +3,7 @@
 import Sidebar from '@/components/Sidebar';
 import MainContent from '@/components/MainContent';
 import SkillMatrix from '@/components/SkillMatrix';
+import LinkifiedText from '@/components/LinkifiedText';
 import LanguageSelector from '@/components/LanguageSelector';
 import { useTranslations } from '@/hooks/useTranslations';
 
@@ -95,7 +96,7 @@ export default function Home() {
                 </div>
                 <ul className="space-y-1 text-sm text-gray-700">
                   {job.achievements.slice(0, 2).map((achievement, i) => (
-                    <li key={i}>• {achievement}</li>
+                    <li key={i}>• <LinkifiedText text={achievement} /></li>
                   ))}
                 </ul>
               </div>

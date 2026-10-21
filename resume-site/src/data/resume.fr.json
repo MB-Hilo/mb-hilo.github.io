@@ -379,6 +379,7 @@
       "website": "https://www.reveller.app",
       "achievements": [
         "Lancement de Reveller, une application de reduction du temps d'écran associant suivi des habitudes, journal, objectifs, défis et groupes d'entraide ; mise en production sur Google Play (version 1.0.0+26) au fil de 541 commits.",
+        "Dérivation d'une application sœur, Poekito (https://poekito.com) : un compagnon Android qui superpose un animal de compagnie animé au-dessus des autres applications pour encourager un usage plus conscient du temps d'écran, bâti sur la même stack Flutter/Kotlin et le même pipeline de ressources ; publié sur Google Play après 173 commits.",
         "Développement de l'ensemble de la stack : un client Flutter (Riverpod, go_router, Freezed, Hive) adossé a une API REST Dart Shelf écrite sur mesure et a PostgreSQL avec 21 migrations de schéma versionnées.",
         "Implementation interne de l'authentification et de la sécurité : jetons JWT d'accès et de rafraîchissement avec hachage bcrypt, Google Sign-In et Sign in with Apple, et stockage sécurisé des jetons sur l'appareil.",
         "Développement de la couche native Android en Kotlin : un Accessibility Service et un service au premier plan pour un blocage d'applications quasi instantané avec code PIN de contournement, ainsi que la collecte des statistiques d'usage et la classification des applications alimentant un tableau de bord.",
@@ -410,24 +411,6 @@
         "Durci la sécurité du code : routes API protégées par OAuth, protection contre la traversée de chemins, échappement SQL LIKE et élimination des requêtes N+1",
         "Configuré le déploiement Docker + Coolify (Hetzner VPS) avec CI/CD automatisé, volumes SQLite persistants et SSL Let's Encrypt",
         "Technologies : Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Fondateur et Développeur Mobile",
-      "company": "Poekito",
-      "period": "Mai 2026 – Aujourd'hui",
-      "location": "Télétravail, fuseau horaire CET",
-      "website": "https://poekito.com",
-      "achievements": [
-        "Lancement de Poekito, une application Android qui superpose un animal de compagnie animé au-dessus des autres applications pour encourager un usage plus conscient du temps d'écran ; mise en production sur Google Play (version 1.0.0+13) au fil de 173 commits.",
-        "Développement d'un service au premier plan natif en Kotlin affichant des sprites animes au-dessus des autres applications via SYSTEM_ALERT_WINDOW, pilote depuis Flutter par un MethodChannel.",
-        "Utilisation des API de statistiques d'usage d'Android et d'une surveillance en arriere-plan planifiée par WorkManager pour detecter l'application active et déclencher les superpositions uniquement sur les applications choisies.",
-        "Réalisation d'effets d'ambiance en plein ecran - herbe qui pousse, eau qui monte, verre qui givre et se fissure - sous forme de moteurs de rendu natifs en Kotlin.",
-        "Écriture d'un shader GLSL de chroma key reproduit à l'identique en Dart et en Kotlin afin que les vidéos de nature superposées s'affichent de la même façon dans l'application et dans la superposition native.",
-        "Mise en place d'un achat unique dans l'application via RevenueCat, avec vérification des droits côté serveur et un parcours de code promotionnel, les droits restant independants du SDK du store.",
-        "Construction du site de marketing en Next.js 16 et React 19 avec Tailwind CSS v4, localisé en cinq langues, renforce par une CSP stricte et une analytique soumise au consentement, et supervisé par Sentry.",
-        "Distribution des ressources à l'exécution depuis un bucket Cloudflare R2 avec vérification SHA-256, cache LRU et repli hors ligne, en partageant le pipeline de ressources avec Reveller.",
-        "Conception de l'application sans comptes utilisateurs, a l'aide de jetons de session anonymes, de sorte qu'aucune donnée personnelle n'est collectée."
       ]
     },
     {

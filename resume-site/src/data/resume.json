@@ -379,6 +379,7 @@
       "website": "https://www.reveller.app",
       "achievements": [
         "Launched Reveller, a screen-time recovery app pairing habit tracking with journaling, goals, challenges and peer groups; shipped to production on Google Play (version 1.0.0+26) across 541 commits.",
+        "Derived a sister app, Poekito (https://poekito.com): an Android companion that overlays an animated pet on other apps to encourage mindful screen-time habits, built on the same Flutter/Kotlin stack and shared asset pipeline; released on Google Play across 173 commits.",
         "Built the full stack end to end: a Flutter client (Riverpod, go_router, Freezed, Hive) backed by a self-written Dart Shelf REST API over PostgreSQL with 21 versioned schema migrations.",
         "Implemented authentication and security in-house - JWT access/refresh tokens with bcrypt password hashing, Google Sign-In and Sign in with Apple, and secure on-device token storage.",
         "Developed the native Android layer in Kotlin - an Accessibility Service and foreground service for near-instant app blocking with a bypass-PIN system, plus usage-stats collection and app-category classification feeding a screen-time dashboard.",
@@ -410,24 +411,6 @@
         "Security hardened the codebase: OAuth-gated API routes, path traversal protection on attachments, SQL LIKE pattern escaping, and N+1 query elimination",
         "Configured Docker + Coolify (Hetzner VPS) deployment with automated CI/CD, persistent SQLite volumes, and Let's Encrypt SSL",
         "Technologies: Next.js, React 19, TypeScript, Flutter, Dart, Riverpod, SQLite, Drizzle ORM, Drift, NextAuth.js, Puppeteer, Google Drive API, Docker, Tailwind CSS, shadcn/ui"
-      ]
-    },
-    {
-      "title": "Founder & Mobile Developer",
-      "company": "Poekito",
-      "period": "May 2026 – Present",
-      "location": "Remote, CET timezone",
-      "website": "https://poekito.com",
-      "achievements": [
-        "Launched Poekito, an Android companion app that overlays an animated pet on other apps to encourage mindful screen-time habits; released to production on Google Play (version 1.0.0+13) across 173 commits.",
-        "Built a native Kotlin foreground service rendering animated pet sprites above other applications via SYSTEM_ALERT_WINDOW, driven from Flutter through a MethodChannel bridge.",
-        "Used Android usage-stats APIs and WorkManager-scheduled background monitoring to detect the foreground app and trigger overlays only on user-selected watched apps.",
-        "Implemented fullscreen ambient effects - growing grass, rising water, frosting and cracking glass - as custom native Kotlin renderers.",
-        "Wrote a GLSL chroma-key shader mirrored in both Dart and Kotlin so chroma-keyed nature video overlays render identically in-app and in the native overlay.",
-        "Shipped a one-time in-app purchase through RevenueCat with server-side entitlement verification and a promo/redeem-code path, keeping entitlements independent of the store SDK.",
-        "Built the marketing site in Next.js 16 and React 19 with Tailwind CSS v4, localized into five languages, hardened with a strict CSP and consent-gated analytics, and monitored via Sentry.",
-        "Delivered companion assets at runtime from a Cloudflare R2 bucket with SHA-256 verification, LRU caching and offline fallback, sharing the asset pipeline with Reveller.",
-        "Designed the app to require no user accounts, using anonymous session tokens so no personal data is collected."
       ]
     },
     {
