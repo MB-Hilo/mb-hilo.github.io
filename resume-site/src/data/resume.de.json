@@ -31,8 +31,12 @@
   "skills": {
     "technical": [
       {
-        "name": "JavaScript / TypeScript / ES6+",
-        "level": 180
+        "name": "JavaScript / ES6+",
+        "level": 150
+      },
+      {
+        "name": "TypeScript",
+        "level": 60
       },
       {
         "name": "React / React Hooks / Next.js",
