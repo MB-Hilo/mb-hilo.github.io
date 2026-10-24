@@ -1,0 +1,135 @@
+{
+  "name": "Mark Bradley",
+  "headline": "Senior Full-Stack Developer",
+  "contact": {
+    "locations": [
+      { "place": "Canada (Hybrid, Toronto, EST)", "phone": "+1 289 672 2888" },
+      { "place": "Portugal (Remote, CET)", "phone": "+351 914 418 913" }
+    ],
+    "email": "mark.obradley@gmail.com",
+    "links": [
+      { "text": "www.hilo.ca", "url": "https://www.hilo.ca" },
+      { "text": "linkedin.com/in/markobradley", "url": "https://www.linkedin.com/in/markobradley/" },
+      { "text": "github.com/mb-hilo", "url": "https://github.com/mb-hilo" }
+    ]
+  },
+  "summary": "Full-stack developer with 15+ years building web platforms for banks, broadcasters and energy companies (BMO, Nordea, Ørsted, CBC). Strongest in TypeScript, React, Angular and Node.js, with PostgreSQL, MongoDB and AWS. Recently shipped two apps to Google Play as a founder; daily user of AI coding tools (Claude Code, Codex) since 2023.",
+  "experience": [
+    {
+      "title": "Founder & Technical Co-founder",
+      "company": "Reveller, Chatelope, PricedOff",
+      "location": "Remote",
+      "start": "Jun 2024",
+      "end": "Present",
+      "bullets": [
+        "Shipped Reveller and sister app Poekito to Google Play (Flutter, Kotlin, Dart API, PostgreSQL).",
+        "Built Chatelope, an AI chat manager (Next.js, React 19, Flutter) syncing ChatGPT, Claude and Gemini history.",
+        "Built PricedOff, price tracking for 7 Amazon marketplaces (React, TypeScript, Node.js, MongoDB, AWS)."
+      ]
+    },
+    {
+      "title": "Lead Software Developer",
+      "company": "MicroPeace.org",
+      "location": "Remote",
+      "start": "Feb 2026",
+      "end": "May 2026",
+      "bullets": [
+        "Built a greenfield nonprofit platform with Next.js, TypeScript, Payload CMS and PostgreSQL.",
+        "Added Google and Apple sign-in, multilingual support, and NGINX/PM2 deployment with CI/CD."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Ørsted",
+      "location": "Copenhagen, Denmark",
+      "start": "Jun 2020",
+      "end": "Jul 2024",
+      "bullets": [
+        "Built the frontend of a commodities trading position-management tool, upgrading it from Angular 13 to 18.",
+        "Wrote a Node.js CLI that migrated data between trading systems through API orchestration.",
+        "Deployed Angular apps with Docker and Kubernetes through Azure CI/CD pipelines."
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Nordea",
+      "location": "Copenhagen, Denmark",
+      "start": "Jan 2019",
+      "end": "May 2020",
+      "bullets": [
+        "Built and launched the Accounts & Transactions module (Angular 9) for customer balances and transactions.",
+        "Helped migrate the banking platform from AngularJS to Angular 9; reviewed team code every sprint."
+      ]
+    },
+    {
+      "title": "Senior UI Developer",
+      "company": "BMO Bank of Montreal",
+      "location": "Toronto, Canada",
+      "start": "Jan 2016",
+      "end": "Sep 2018",
+      "bullets": [
+        "Led a UI team of 4 on myWealth, BMO's wealth onboarding app (Angular, Angular Material, Node.js).",
+        "Redesigned the Smartfolio robo-investor tool; implemented English/French localization."
+      ]
+    },
+    {
+      "title": "Interactive Developer",
+      "company": "Publicis Modem (Nurun)",
+      "location": "Toronto, Canada",
+      "start": "Jan 2015",
+      "end": "Feb 2016",
+      "bullets": [
+        "Built React single-page apps with MongoDB; automated ad build and deploy workflows with Node.js."
+      ]
+    },
+    {
+      "title": "Co-founder & Consultant",
+      "company": "Hilo Information Technology Inc.",
+      "location": "Toronto & EU",
+      "start": "Sep 2014",
+      "end": "Present",
+      "bullets": [
+        "Consulting for clients including Scotiabank, RBC, TD, BMO, Bell Media, Telus and Loblaws Digital."
+      ]
+    },
+    {
+      "title": "Senior UI Developer",
+      "company": "CBC",
+      "location": "Toronto, Canada",
+      "start": "Sep 2011",
+      "end": "Sep 2013",
+      "bullets": [
+        "Led the CBC video player redesign: ads, captions, live streaming, Akamai HD and analytics."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "items": "TypeScript, JavaScript, Dart, Python, Kotlin, SQL"
+    },
+    {
+      "label": "Frontend",
+      "items": "React, Next.js, Angular, RxJS, Flutter, Tailwind CSS"
+    },
+    {
+      "label": "Backend & Data",
+      "items": "Node.js, Express, GraphQL, PostgreSQL, MongoDB, DynamoDB, Payload CMS"
+    },
+    {
+      "label": "Cloud & DevOps",
+      "items": "AWS, Docker, Kubernetes, GitHub Actions, Azure DevOps, NGINX"
+    },
+    {
+      "label": "Testing & AI",
+      "items": "Jest, Cypress, Playwright, Claude Code, Codex, Cursor"
+    }
+  ],
+  "education": [
+    {
+      "name": "Diploma, Computer Science (Programmer Analyst)",
+      "school": "Sault College",
+      "year": ""
+    }
+  ]
+}

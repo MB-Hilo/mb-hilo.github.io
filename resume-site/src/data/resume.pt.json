@@ -27,7 +27,7 @@
       "website": "https://mb-hilo.github.io"
     }
   },
-  "profile": "Programador full-stack e cofundador técnico com mais de 15 anos de experiência na construção de plataformas web escaláveis, aplicações cloud-native e interfaces centradas no utilizador para empresas e startups (CBC, BMO, Ørsted, Nordea, Publicis). Atualmente cofundador da empresa de consultoria de TI www.hilo.ca e do SaaS www.pricedOff.com, uma plataforma de inteligência de preços orientada para o consumidor. Lidero a arquitetura, os serviços de backend (Node.js, MongoDB, AWS), o desenvolvimento de extensões Chrome e a automação inteligente para pipelines de dados, afiliação e marketing. O meu estilo de desenvolvimento é pragmático e focado no desempenho, assente em código limpo e testável com iteração rápida. Adotante precoce de ferramentas de programação com IA desde 2023. Utilizei todos os principais fornecedores de LLM e ambientes de agentes (Cursor, Claude Code, Codex, Antigravity, Pi) e implementei mais de uma dezena de projetos pessoais que consumiram milhões de tokens.",
+  "profile": "Programador full-stack e cofundador técnico com mais de 15 anos de experiência na construção de plataformas web escaláveis, aplicações cloud-native e interfaces centradas no utilizador para empresas e startups (CBC, BMO, Ørsted, Nordea, Publicis). Atualmente cofundador da empresa de consultoria de TI www.hilo.ca e do SaaS www.pricedOff.com, uma plataforma de inteligência de preços orientada para o consumidor. Lidero a arquitetura, os serviços de backend (Node.js, MongoDB, AWS), o desenvolvimento de extensões Chrome e a automação inteligente para pipelines de dados, afiliação e marketing. O meu estilo de desenvolvimento é pragmático e focado no desempenho, assente em código limpo e testável com iteração rápida. Adotante precoce de ferramentas de programação com IA desde 2023. Utilizei todos os principais fornecedores de LLM e ambientes de agentes (Claude Code, Codex, Antigravity, Pi) e implementei mais de uma dezena de projetos pessoais que consumiram milhões de tokens.",
   "skills": {
     "technical": [
       {
@@ -142,7 +142,7 @@
           "AWS Bedrock para acesso gerido a modelos dentro de serviços alojados na AWS",
           "Inferência local com Ollama e LM Studio para cargas offline e sensíveis a custos",
           "Desenvolvimento de servidores Model Context Protocol (MCP) para agentes com ferramentas",
-          "Adoção precoce desde 2023: Cursor, Claude Code, Codex, Antigravity e Pi"
+          "Adoção precoce desde 2023: Claude Code, Codex, Antigravity e Pi"
         ]
       },
       {

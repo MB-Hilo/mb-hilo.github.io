@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e159930-b451-480e-8c8e-868211974c75" name="Changes" comment="Update header description">
+      <change beforePath="$PROJECT_DIR$/resume-site/scripts/deploy-to-root.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume-site/scripts/deploy-to-root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-site/src/data/resume.pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-site/src/data/resume.pt.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MB-Hilo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MB-Hilo/mb-hilo.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;720d6e62-8026-4ef8-9f93-503cbd7e7a82&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2zN0S6qjafD7TBxsAxijLTwJq2j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/mb-hilo.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\mb-hilo.github.io\\resume-site\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\mb-hilo.github.io" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e159930-b451-480e-8c8e-868211974c75" name="Changes" comment="" />
+      <created>1751556220016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751556220016</updated>
+      <workItem from="1751556221188" duration="2088000" />
+      <workItem from="1757528105964" duration="7205000" />
+      <workItem from="1757603242146" duration="9958000" />
+      <workItem from="1757877174563" duration="3050000" />
+      <workItem from="1757961485140" duration="1040000" />
+      <workItem from="1758125653668" duration="3715000" />
+      <workItem from="1758993054046" duration="311000" />
+      <workItem from="1759962032850" duration="6169000" />
+      <workItem from="1760630219809" duration="102000" />
+      <workItem from="1760631089738" duration="1277000" />
+      <workItem from="1760868260637" duration="517000" />
+      <workItem from="1760976450391" duration="321000" />
+      <workItem from="1761040893722" duration="526000" />
+      <workItem from="1761069426693" duration="9000" />
+      <workItem from="1765582911338" duration="1022000" />
+      <workItem from="1766337819495" duration="348000" />
+      <workItem from="1766414118018" duration="22000" />
+      <workItem from="1770752379648" duration="1736000" />
+      <workItem from="1770846241411" duration="4251000" />
+      <workItem from="1772116176592" duration="2023000" />
+      <workItem from="1778592023519" duration="5497000" />
+      <workItem from="1778600325589" duration="1093000" />
+      <workItem from="1779807659544" duration="3230000" />
+      <workItem from="1786121388993" duration="4087000" />
+      <workItem from="1786199726484" duration="3000" />
+      <workItem from="1786520766844" duration="544000" />
+      <workItem from="1786714777042" duration="561000" />
+      <workItem from="1787852108334" duration="1894000" />
+      <workItem from="1792598347969" duration="4335000" />
+      <workItem from="1792846530505" duration="6990000" />
+    </task>
+    <task id="LOCAL-00001" summary="Reveal, QR code, sidebar update">
+      <option name="closed" value="true" />
+      <created>1757610622018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757610622018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Print margins and page breaks">
+      <option name="closed" value="true" />
+      <created>1757612912121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757612912121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Robolog github link">
+      <option name="closed" value="true" />
+      <created>1757613098544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757613098544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Re-deploy">
+      <option name="closed" value="true" />
+      <created>1757613316465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757613316465</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Background animation">
+      <option name="closed" value="true" />
+      <created>1757615734138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757615734138</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Background animation">
+      <option name="closed" value="true" />
+      <created>1757616562742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757616562742</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Background animation">
+      <option name="closed" value="true" />
+      <created>1757617011709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757617011709</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Python, nationality">
+      <option name="closed" value="true" />
+      <created>1757879656148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757879656148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="missing build files?">
+      <option name="closed" value="true" />
+      <created>1758132562264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758132562264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="missing build files?">
+      <option name="closed" value="true" />
+      <created>1759964265497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759964265497</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix Sidebar.tsx">
+      <option name="closed" value="true" />
+      <created>1759964978709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759964978709</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix Sidebar.tsx">
+      <option name="closed" value="true" />
+      <created>1759966313421</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759966313421</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix Sidebar.tsx">
+      <option name="closed" value="true" />
+      <created>1759966850682</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759966850682</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix Sidebar.tsx">
+      <option name="closed" value="true" />
+      <created>1760630321654</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760630321654</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Hide dynamic background on mobile">
+      <option name="closed" value="true" />
+      <created>1760631246204</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760631246204</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Hide dynamic background on mobile">
+      <option name="closed" value="true" />
+      <created>1765583005226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765583005226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="implemented a language selector for your resume with translations into German, French, and        Spanish. Here's what was created:                                                                    &#10;                                                                                                         New Files Created                                          &#10;                                                                                                       &#10;  Context &amp; Hooks:                                           &#10;  - src/context/LanguageContext.tsx - Language state management (React Context)&#10;  - src/hooks/useTranslations.ts - Custom hook for accessing translations&#10;&#10;  Translations:&#10;  - src/data/translations.ts - UI labels in all 4 languages (Contact, Skills, Profile, etc.)&#10;  - src/data/resumeData.ts - Helper to get resume data by language&#10;  - src/data/resume.de.json - German translation&#10;  - src/data/resume.fr.json - French translation&#10;  - src/data/resume.es.json - Spanish translation&#10;&#10;  Components:&#10;  - src/components/LanguageSelector.tsx - Dropdown selector with flags&#10;  - src/components/Providers.tsx - Context provider wrapper&#10;&#10;  Updated Files&#10;&#10;  - src/app/layout.tsx - Wrapped with LanguageProvider&#10;  - src/app/page.tsx - Uses translations for mobile layout&#10;  - src/components/Sidebar.tsx - All labels translated&#10;  - src/components/MainContent.tsx - All labels translated&#10;  - src/components/ExpandableExperience.tsx - Button labels translated&#10;  - src/components/SkillMatrix.tsx - Labels translated&#10;&#10;  How It Works&#10;&#10;  The language selector appears in the top-right corner of the page and allows switching between:      &#10;  - English (default)&#10;  - Deutsch (German)&#10;  - Français (French)&#10;  - Español (Spanish)&#10;&#10;  When the language changes, all UI labels and resume content update instantly. The selector is hidden &#10;  during printing.&#10;&#10;  Run npm run dev to test the implementation.">
+      <option name="closed" value="true" />
+      <created>1770849019883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770849019883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Resume site updated with latest exp">
+      <option name="closed" value="true" />
+      <created>1778598182827</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1778598182827</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Resume site updated with latest exp">
+      <option name="closed" value="true" />
+      <created>1778598494404</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778598494404</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Update header description">
+      <option name="closed" value="true" />
+      <created>1792598546399</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1792598546399</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reveal, QR code, sidebar update" />
+    <MESSAGE value="Print margins and page breaks" />
+    <MESSAGE value="Robolog github link" />
+    <MESSAGE value="Re-deploy" />
+    <MESSAGE value="Background animation" />
+    <MESSAGE value="Update Python, nationality" />
+    <MESSAGE value="missing build files?" />
+    <MESSAGE value="fix Sidebar.tsx" />
+    <MESSAGE value="Hide dynamic background on mobile" />
+    <MESSAGE value="implemented a language selector for your resume with translations into German, French, and        Spanish. Here's what was created:                                                                    &#10;                                                                                                         New Files Created                                          &#10;                                                                                                       &#10;  Context &amp; Hooks:                                           &#10;  - src/context/LanguageContext.tsx - Language state management (React Context)&#10;  - src/hooks/useTranslations.ts - Custom hook for accessing translations&#10;&#10;  Translations:&#10;  - src/data/translations.ts - UI labels in all 4 languages (Contact, Skills, Profile, etc.)&#10;  - src/data/resumeData.ts - Helper to get resume data by language&#10;  - src/data/resume.de.json - German translation&#10;  - src/data/resume.fr.json - French translation&#10;  - src/data/resume.es.json - Spanish translation&#10;&#10;  Components:&#10;  - src/components/LanguageSelector.tsx - Dropdown selector with flags&#10;  - src/components/Providers.tsx - Context provider wrapper&#10;&#10;  Updated Files&#10;&#10;  - src/app/layout.tsx - Wrapped with LanguageProvider&#10;  - src/app/page.tsx - Uses translations for mobile layout&#10;  - src/components/Sidebar.tsx - All labels translated&#10;  - src/components/MainContent.tsx - All labels translated&#10;  - src/components/ExpandableExperience.tsx - Button labels translated&#10;  - src/components/SkillMatrix.tsx - Labels translated&#10;&#10;  How It Works&#10;&#10;  The language selector appears in the top-right corner of the page and allows switching between:      &#10;  - English (default)&#10;  - Deutsch (German)&#10;  - Français (French)&#10;  - Español (Spanish)&#10;&#10;  When the language changes, all UI labels and resume content update instantly. The selector is hidden &#10;  during printing.&#10;&#10;  Run npm run dev to test the implementation." />
+    <MESSAGE value="Resume site updated with latest exp" />
+    <MESSAGE value="Update header description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update header description" />
+  </component>
+</project>

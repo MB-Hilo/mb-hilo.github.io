@@ -30,6 +30,7 @@ function cleanRoot(rootDir) {
     
     // Skip these important directories/files
     if (entry.name === 'resume-site' || 
+        entry.name === 'resume-simple' || 
         entry.name === '.git' || 
         entry.name === '.gitignore' ||
         entry.name === 'README.md' ||
